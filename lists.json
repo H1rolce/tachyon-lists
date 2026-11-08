@@ -13,8 +13,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Очищенный и дедуплицированный список реально действующих доменов с региональными ограничениями в РФ (без неактивных и устаревших записей)."
-    },
+     },
     {
       "id": "tachyon:ru_blocked_all",
       "name_ru": "Региональный список RU (полный)",
@@ -25,8 +24,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Полная нефильтрованная выгрузка всех доменов, поддоменов и зеркал из региональных списков маршрутизации РФ."
-    },
+     },
     {
       "id": "tachyon:antifilter",
       "name_ru": "Antifilter Community",
@@ -37,8 +35,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Курируемый сообществом Antifilter.download список доменов и подсетей зарубежных сервисов для селективной маршрутизации."
-    },
+     },
     {
       "id": "tachyon:refilter",
       "name_ru": "Re:filter",
@@ -49,8 +46,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Тщательно модерируемый проект Re:filter: включает проверенные домены зарубежных ресурсов и сервисов с геоблоком без избыточных правил."
-    },
+     },
     {
       "id": "tachyon:ru_whitelist",
       "name_ru": "Белый список РФ (Direct)",
@@ -61,8 +57,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: Напрямую (Direct)] Критически важные российские сервисы, которые нельзя пускать через VPN: Госуслуги, ФНС (nalog.ru), Честный ЗНАК, Мос.ру, Сбербанк, Т-Банк, Альфа-Банк, ВТБ, Ozon, Wildberries, Авито, Яндекс, VK, РЖД, корневые сертификаты и проверочные домены."
-    },
+     },
     {
       "id": "tachyon:ru_domains",
       "name_ru": "Рунет и СНГ (Direct)",
@@ -73,8 +68,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: Напрямую (Direct)] Все национальные доменные зоны России и СНГ (.ru, .рф, .su, .рус, .москва, .дети, .татар, .by, .бел, .kz, .қаз), а также международные домены российских компаний (Яндекс, VK, Mail.ru, Kaspersky, 1С, 2ГИС, Rutube)."
-    },
+     },
     {
       "id": "tachyon:netflix",
       "name_ru": "Netflix",
@@ -85,8 +79,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Домены видеосервиса Netflix: netflix.com, nflxvideo.net, nflximg.net, nflxso.net, nflxext.com и проверка скорости fast.com."
-    },
+     },
     {
       "id": "tachyon:discord",
       "name_ru": "Discord",
@@ -97,8 +90,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Все домены и подсети Discord: discord.com, discord.gg, discordapp.com, discordapp.net, discord.media и голосовые серверы."
-    },
+     },
     {
       "id": "tachyon:telegram",
       "name_ru": "Telegram",
@@ -109,8 +101,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены (telegram.org, t.me, web.telegram.org, telegra.ph, telesco.pe) и официальные IPv4/IPv6-подсети всех датацентров Telegram для работы звонков, кружочков и быстрой загрузки медиа."
-    },
+     },
     {
       "id": "tachyon:meta",
       "name_ru": "Meta",
@@ -121,8 +112,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Все домены и IP-подсети компании Meta: instagram.com, cdninstagram.com, facebook.com, fbcdn.net, threads.net и messenger.com (без WhatsApp)."
-    },
+     },
     {
       "id": "tachyon:twitter",
       "name_ru": "X (Twitter)",
@@ -133,8 +123,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Домены и IP-подсети соцсети X / Twitter: x.com, twitter.com, t.co, twimg.com, abs.twimg.com, pbs.twimg.com и video.twimg.com."
-    },
+     },
     {
       "id": "tachyon:zoom_teams",
       "name_ru": "Zoom, Google Meet, MS Teams, Webex и Slack",
@@ -145,8 +134,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: Напрямую (Direct) для минимальной задержки или в Прокси при корпоративном геоблоке] Платформы удалённой работы и видеозвонков: Zoom (zoom.us), Google Meet (meet.google.com + STUN/TURN подсети), Microsoft Teams, Cisco Webex, Slack (slack.com), Loom, Gather, Whereby и Jitsi."
-    },
+     },
     {
       "id": "tachyon:discord_voice",
       "name_ru": "Discord Voice",
@@ -157,8 +145,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В низкопинговый игровой Прокси / VPN с поддержкой UDP или Desync] Узкий список голосовых и видео-шлюзов Discord (*.discord.media и UDP-подсети голосовых серверов Discord). Позволяет направить голосовые каналы и стриминг экрана через самый быстрый узел с минимальным пингом отдельно от основного чата и картинок Discord."
-    },
+     },
     {
       "id": "tachyon:games_all",
       "name_ru": "Игры и игровые платформы (все)",
@@ -169,8 +156,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN или Direct] Единый сводный список всех популярных игровых лаунчеров, магазинов, античитов (BattlEye, EasyAntiCheat) и серверов: Steam, Epic Games, Ubisoft Connect, War Thunder / Gaijin, Battle.net / Blizzard, EA App / Origin, Riot Games, Xbox Live, PlayStation Network, Nintendo, GOG, Wargaming, HoYoverse, Minecraft, Rockstar, Roblox, Supercell, Escape from Tarkov, FACEIT и PUBG."
-    },
+     },
     {
       "id": "tachyon:epicgames",
       "name_ru": "Epic Games",
@@ -181,8 +167,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN (для раздач/покупок) или Direct] Домены Epic Games Store, Fortnite, Rocket League, Fall Guys, движка Unreal Engine, Fab/Quixel и античита EasyAntiCheat (epicgames.com, unrealengine.com, fortnite.com, easy.ac)."
-    },
+     },
     {
       "id": "tachyon:callofduty",
       "name_ru": "Call of Duty и Demonware",
@@ -193,8 +178,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN (устраняет ошибки HUENEME-NEGEV / TRAVIS-RILEA и вечный цикл «Обновление завершено. Требуется перезапуск»)] Полный список доменов и 805 IP-подсетей матчей Call of Duty для Steam, Battle.net, Xbox Game Pass и PlayStation: шлюзы матчмейкинга и лобби Demonware (demonware.net + AS60229), CDN микропатчей и шейдеров Beenox (d2cyf1jgpkmugk.cloudfront.net, fastdl/content.callofduty.com, cod-live-updates.activision.com, blzstatic.com) и игровые серверы Warzone."
-    },
+     },
     {
       "id": "tachyon:origin",
       "name_ru": "EA / Origin",
@@ -205,8 +189,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены Electronic Arts: ea.com, origin.com, tnt-ea.com, apexlegends.com и серверы авторизации, античита и загрузки игр EA App."
-    },
+     },
     {
       "id": "tachyon:pubg",
       "name_ru": "PUBG, THE FINALS, DayZ, VRChat, PoE, Warframe и античиты (BattlEye / EasyAntiCheat)",
@@ -217,8 +200,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Популярные сетевые игры и античит-системы: PUBG / Krafton, THE FINALS и ARC Raiders (Embark), DayZ и Arma (Bohemia), VRChat, Dead by Daylight, Path of Exile, Warframe, Guild Wars 2, Albion Online, Rust, Squad, Warner Bros. Games (Mortal Kombat), osu! и античиты BattlEye / EasyAntiCheat."
-    },
+     },
     {
       "id": "tachyon:roblox",
       "name_ru": "Roblox",
@@ -229,8 +211,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Все домены и игровые IP-подсети Roblox: roblox.com, rbxcdn.com, rbx.com, robloxlabs.com и голосовой чат."
-    },
+     },
     {
       "id": "tachyon:game_backends",
       "name_ru": "Сетевые движки игр и голосовой чат",
@@ -241,8 +222,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN (с UDP) или Desync] Сетевая инфраструктура сотен мультиплеерных игр и внутриигрового голосового чата: войс-движок Vivox (vivox.com, unity3d.com — чинит голосовой чат в Valorant, PUBG, LoL, Fortnite, Overwatch 2, Rainbow Six), облако кооп-игр Photon Engine (photonengine.com, exitgames.com + UDP-подсети — чинит Phasmophobia, R.E.P.O., Content Warning, Lethal Company, VRChat, Among Us), Azure PlayFab (playfabapi.com — Helldivers 2, Sea of Thieves, Minecraft) и Epic Online Services (epicgames.dev)."
-    },
+     },
     {
       "id": "tachyon:cs2_dota2",
       "name_ru": "Valve Matchmaking",
@@ -253,8 +233,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В игровой Прокси с минимальным пингом или Direct] Только соревновательные серверы матчей Valve, релеи Steam Datagram Relay (steamdatagram.com, valve.net и подсети AS32590 Valve Corporation) и игровой координатор (CS2, Dota 2, Deadlock, TF2) — без тяжёлого магазина и скачивания игр Steam."
-    },
+     },
     {
       "id": "tachyon:cloudflare",
       "name_ru": "Cloudflare",
@@ -265,8 +244,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Официальные IPv4/IPv6-подсети CDN Cloudflare для маршрутизации ресурсов, использующих TLS ECH (Encrypted Client Hello) и проксирование Cloudflare."
-    },
+     },
     {
       "id": "tachyon:cloudfront",
       "name_ru": "Amazon CloudFront",
@@ -277,8 +255,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Диапазоны IP-адресов CDN Amazon CloudFront, на которых работают тысячи зарубежных веб-приложений, игровых сервисов и API."
-    },
+     },
     {
       "id": "tachyon:fastly",
       "name_ru": "Fastly CDN",
@@ -289,8 +266,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены и подсети CDN-провайдера Fastly (fastly.net, fastlylb.net, fsdn.com), используемого Reddit, GitHub, StackOverflow, PyPI и многими западными сервисами."
-    },
+     },
     {
       "id": "tachyon:hetzner",
       "name_ru": "Hetzner",
@@ -301,8 +277,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Подсети европейских датацентров хостинг-провайдера Hetzner Online (Германия и Финляндия)."
-    },
+     },
     {
       "id": "tachyon:ovh",
       "name_ru": "OVHcloud",
@@ -313,8 +288,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Подсети облачного провайдера OVHcloud, на которых размещено множество игровых серверов, веб-проектов и API."
-    },
+     },
     {
       "id": "tachyon:digitalocean",
       "name_ru": "DigitalOcean",
@@ -325,8 +299,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Подсети глобальной облачной инфраструктуры и датацентров DigitalOcean."
-    },
+     },
     {
       "id": "tachyon:doh_dot_dns",
       "name_ru": "Публичные шифрованные DNS (DoH / DoT)",
@@ -337,8 +310,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN (для туннелирования DoH) или Блокировать (Block — для принудительного использования локального DNS роутера)] Полная база публичных серверов DNS-over-HTTPS (DoH) и DNS-over-TLS (DoT), включая домены и IP-адреса резолверов Cloudflare (1.1.1.1, cloudflare-dns.com), Google (8.8.8.8, dns.google), Quad9 (9.9.9.9, dns.quad9.net), AdGuard DNS, NextDNS, OpenDNS, Control D и Mullvad DNS."
-    },
+     },
     {
       "id": "tachyon:vps_clouds",
       "name_ru": "Облачные хостинги (VPS)",
@@ -349,8 +321,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Сводные IPv4/IPv6-подсети популярных зарубежных облачных провайдеров и VPS-хостингов: Oracle Cloud (AS31898), Vultr / Constant (AS20473), Linode / Akamai Connected Cloud (AS63949), Scaleway / Online.net (AS12876) и GCore Labs (AS199524) в дополнение к спискам Hetzner, OVH и DigitalOcean."
-    },
+     },
     {
       "id": "tachyon:tor",
       "name_ru": "Tor и анонимайзеры",
@@ -361,8 +332,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены и узлы Tor Project (torproject.org), каталогов мостов, оверлейных сетей I2P, Tails и Whonix."
-    },
+     },
     {
       "id": "tachyon:et_spamhaus_block",
       "name_ru": "Emerging Threats, Spamhaus DROP и Feodo C2 (Block) — базовая IP-защита от ботнетов и угона подсетей",
@@ -373,8 +343,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: Блокировать (Block)] Базовый исходящий IP-фильтр сетевых угроз без ложных срабатываний (аналог профилей threat, etcompromised, spamhaus, feodo и dshield в banIP): управляющие C2-серверы ботнетов Abuse.ch Feodo Tracker, скомпрометированные узлы Emerging Threats (ET Block & Compromised), похищенные подсети Spamhaus DROP / eDROP и активные сканеры SANS DShield."
-    },
+     },
     {
       "id": "tachyon:hagezi_tif_ip_block",
       "name_ru": "HaGeZi Threat Intelligence IP и FireHOL Webclient (Block) — IP-адреса вредоносного ПО, C2 и фишинга",
@@ -385,8 +354,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: Блокировать (Block)] Расширенный исходящий список опасных IP-адресов и подсетей (аналог профилей hagezi и webclient в banIP): серверы распространения вредоносного ПО, крипто-дрейнеров, троянов, командные узлы C2 и вредоносные веб-узлы по данным HaGeZi Threat Intelligence IP Feed и FireHOL Webclient. Блокирует прямое подключение по IP даже при обращениях мимо системного DNS."
-    },
+     },
     {
       "id": "tachyon:botnet_attackers_ip_block",
       "name_ru": "IPsum, CINS Army и Binary Defense (Block)",
@@ -397,8 +365,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "[Маршрут: Блокировать (Block)] Сводный список IP-адресов с подтверждённой вредоносной активностью по данным десятков независимых сенсоров и ханипотов (аналог профилей ipsum, cinsscore и binarydefense в banIP): IPsum (Level 3+), CINS Army (Sentinel IPS) и Binary Defense ATIF."
-    },
+     },
     {
       "id": "tachyon:google_meet",
       "name_ru": "Google Meet",
@@ -409,8 +376,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "Домены и подсети видеозвонков Google Meet."
-    },
+     },
     {
       "id": "tachyon:geoip_ru",
       "name_ru": "GeoIP RU",
@@ -421,8 +387,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "Системная база IP-подсетей России."
-    },
+     },
     {
       "id": "tachyon:geoip_us",
       "name_ru": "GeoIP US",
@@ -433,8 +398,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "Системная база IP-подсетей США."
-    },
+     },
     {
       "id": "tachyon:geoip_cn",
       "name_ru": "GeoIP CN",
@@ -445,8 +409,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "description_ru": "Системная база IP-подсетей КНР."
-    }
+     }
   ],
   "domain_lists": [
     {
@@ -461,8 +424,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 73286,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Главный сводный список селективной маршрутизации внутри России: объединяет региональные базы доменов, списки Re:filter, Antifilter и популярные зарубежные сервисы, ограничившие доступ для российских IP."
-    },
+     },
     {
       "id": "tachyon:geoblock",
       "kind": "domains",
@@ -475,8 +437,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 968,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Единая база из 150+ иностранных платформ, SaaS, банков и облаков, возвращающих ошибку 403 / Unavailable in your region из РФ: PayPal, Wise, Revolut, Notion, Canva, Trello, Jira, Atlassian, Zoom, Intel, Dell, Broadcom, VMware, Coursera, Udemy, JetBrains, GitLab, Adobe, Autodesk, Grammarly, Medium, Docker, DigiCert и др."
-    },
+     },
     {
       "id": "tachyon:block",
       "kind": "domains",
@@ -489,8 +450,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 331,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Сайты и внешние веб-ресурсы из базовой региональной выгрузки, недоступные при прямом подключении через локальных провайдеров."
-    },
+     },
     {
       "id": "svc_tachyon_ru_blocked",
       "kind": "domains",
@@ -506,8 +466,7 @@
       "same_as_ip": [
         "tachyon:ru_blocked"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Очищенный и дедуплицированный список реально действующих доменов с региональными ограничениями в РФ (без неактивных и устаревших записей)."
-    },
+     },
     {
       "id": "svc_tachyon_ru_blocked_all",
       "kind": "domains",
@@ -523,8 +482,7 @@
       "same_as_ip": [
         "tachyon:ru_blocked_all"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Полная нефильтрованная выгрузка всех доменов, поддоменов и зеркал из региональных списков маршрутизации РФ."
-    },
+     },
     {
       "id": "svc_tachyon_antifilter",
       "kind": "domains",
@@ -540,8 +498,7 @@
       "same_as_ip": [
         "tachyon:antifilter"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Курируемый сообществом Antifilter.download список доменов и подсетей зарубежных сервисов для селективной маршрутизации."
-    },
+     },
     {
       "id": "svc_tachyon_refilter",
       "kind": "domains",
@@ -557,8 +514,7 @@
       "same_as_ip": [
         "tachyon:refilter"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Тщательно модерируемый проект Re:filter: включает проверенные домены зарубежных ресурсов и сервисов с геоблоком без избыточных правил."
-    },
+     },
     {
       "id": "tachyon:russia_outside",
       "kind": "domains",
@@ -571,8 +527,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 176,
-      "description_ru": "[Маршрут: В Прокси с IP РФ (из-за рубежа) или Direct (в РФ)] Российские банки, Госуслуги, маркетплейсы (Ozon, Wildberries), онлайн-кинотеатры (Кинопоиск, Иви, Wink, Okko) и госсайты, не открывающиеся с зарубежных IP-адресов."
-    },
+     },
     {
       "id": "tachyon:ukraine_inside",
       "kind": "domains",
@@ -585,8 +540,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 1858,
-      "description_ru": "[Маршрут: В Прокси / VPN] Российские сайты, экосистемы (Яндекс, VK, Одноклассники, Mail.ru, Дзен, Кинопоиск, Rutube), банки (Сбер, Т-Банк, ВТБ, Альфа), маркетплейсы (Ozon, Wildberries, Авито), Госуслуги, СМИ и CDN с региональными ограничениями маршрутизации."
-    },
+     },
     {
       "id": "tachyon:belarus_inside",
       "kind": "domains",
@@ -599,8 +553,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 81,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Сводный список интернет-ресурсов, новостных порталов и зарубежных платформ с региональными ограничениями доступа в РБ (включая закрытые по геоблоку LinkedIn, ChatGPT, Claude, Airbnb, Upwork, Coursera)."
-    },
+     },
     {
       "id": "svc_tachyon_ru_whitelist",
       "kind": "domains",
@@ -616,8 +569,7 @@
       "same_as_ip": [
         "tachyon:ru_whitelist"
       ],
-      "description_ru": "[Маршрут: Напрямую (Direct)] Критически важные российские сервисы, которые нельзя пускать через VPN: Госуслуги, ФНС (nalog.ru), Честный ЗНАК, Мос.ру, Сбербанк, Т-Банк, Альфа-Банк, ВТБ, Ozon, Wildberries, Авито, Яндекс, VK, РЖД, корневые сертификаты и проверочные домены."
-    },
+     },
     {
       "id": "svc_tachyon_ru_domains",
       "kind": "domains",
@@ -633,8 +585,7 @@
       "same_as_ip": [
         "tachyon:ru_domains"
       ],
-      "description_ru": "[Маршрут: Напрямую (Direct)] Все национальные доменные зоны России и СНГ (.ru, .рф, .su, .рус, .москва, .дети, .татар, .by, .бел, .kz, .қаз), а также международные домены российских компаний (Яндекс, VK, Mail.ru, Kaspersky, 1С, 2ГИС, Rutube)."
-    },
+     },
     {
       "id": "tachyon:ru_only_inside",
       "kind": "domains",
@@ -647,8 +598,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 170,
-      "description_ru": "[Маршрут: Строго Напрямую (Direct)] Российские государственные порталы, банки, суды, ЕМИАС, региональные сервисы ЖКХ и операторы связи, которые жёстко блокируют вход с любых зарубежных и серверных IP-адресов."
-    },
+     },
     {
       "id": "tachyon:push",
       "kind": "domains",
@@ -661,8 +611,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 17,
-      "description_ru": "[Маршрут: Напрямую (Direct)] Серверы доставки мобильных и системных push-уведомлений: Apple APNs (push.apple.com), Google FCM (mtalk.google.com, fcm.googleapis.com), Huawei Push, Xiaomi MiPush, Samsung Push и Windows WNS."
-    },
+     },
     {
       "id": "tachyon:steam_cdn",
       "kind": "domains",
@@ -675,8 +624,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 100,
-      "description_ru": "[Маршрут: Напрямую (Direct) — ставить выше правила Steam] Контент-серверы скачивания игр и обновлений Steam (steamcontent.com, steampipe.akamaized.net, dl.steam.ksyna.com, steamserver.net) и других игровых лаунчеров. Поставьте этот список в Direct выше основного списка Steam (Proxy): магазин, смена региона, инвентарь и торговая площадка будут работать через VPN, а 100-гигабайтные игры будут качаться напрямую на полной скорости вашего провайдера."
-    },
+     },
     {
       "id": "tachyon:captive_ntp_stun",
       "kind": "domains",
@@ -689,8 +637,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 496,
-      "description_ru": "[Маршрут: Напрямую (Direct)] Системные домены проверки наличия интернета на iOS, Android, Windows и macOS (captive.apple.com, connectivitycheck.gstatic.com, msftconnecttest.com), серверы синхронизации точного времени NTP (pool.ntp.org, time.cloudflare.com — критично для запуска VLESS/Reality и WireGuard на роутерах без RTC) и публичные STUN-серверы."
-    },
+     },
     {
       "id": "tachyon:ai_all",
       "kind": "domains",
@@ -703,8 +650,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 354,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Единый полный список всех зарубежных ИИ-сервисов и инструментов разработки: OpenAI (ChatGPT, Sora), Anthropic (Claude, Claude Code), Google (Gemini, AI Studio, NotebookLM, Antigravity), xAI (Grok), OpenRouter, OpenCode, Cursor, Windsurf, Codeium, Perplexity, GitHub/MS Copilot, JetBrains AI, DeepSeek, Midjourney, Civitai, ElevenLabs, Suno, Udio, Runway, Kling, Hugging Face, Poe, Groq и Mistral."
-    },
+     },
     {
       "id": "tachyon:openai",
       "kind": "domains",
@@ -717,8 +663,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 24,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Все домены и поддомены OpenAI: chatgpt.com, chat.openai.com, sora.com, platform.openai.com, api.openai.com, oaistatic.com, oaiusercontent.com и шлюзы авторизации."
-    },
+     },
     {
       "id": "tachyon:anthropic",
       "kind": "domains",
@@ -731,8 +676,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 21,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Домены нейросети Claude и инструментов разработки Anthropic: claude.ai, claude.com, anthropic.com, console.anthropic.com, api.anthropic.com, claudeusercontent.com, claudemcpclient.com и CDN."
-    },
+     },
     {
       "id": "tachyon:google_ai",
       "kind": "domains",
@@ -745,8 +689,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 58,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Все домены ИИ-экосистемы Google: gemini.google.com, aistudio.google.com, notebooklm.google.com, antigravity.google, jules.google, stitch.withgoogle.com, labs.google, deepmind.google и generativelanguage.googleapis.com."
-    },
+     },
     {
       "id": "tachyon:xai",
       "kind": "domains",
@@ -759,8 +702,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 6,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Домены искусственного интеллекта xAI Илона Маска: grok.com, x.ai, console.x.ai, api.x.ai, grokusercontent.com и медиа-CDN Grok."
-    },
+     },
     {
       "id": "tachyon:openrouter",
       "kind": "domains",
@@ -773,8 +715,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 31,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Агрегаторы нейросетей и провайдеры облачного инференса: OpenRouter (openrouter.ai), Poe (poe.com), Groq (groq.com), Mistral AI (mistral.ai), Together AI, Fireworks AI, DeepInfra, Cerebras, Replicate, Fal.ai, Chutes, Cohere и LMSYS Arena."
-    },
+     },
     {
       "id": "tachyon:cursor",
       "kind": "domains",
@@ -787,8 +728,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 68,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Инструменты ИИ-разработки и кодинг-агенты: Cursor (cursor.com, cursorapi.com), OpenCode (opencode.ai, models.dev), Windsurf / Codeium (windsurf.com, codeium.com), JetBrains AI (grazie.ai, jetbrains.ai), Trae, Cline, Roo Code, Kilo Code, Aider, Lovable, Bolt.new, v0.dev, Devin, Replit, CodeRabbit и Context7."
-    },
+     },
     {
       "id": "tachyon:perplexity",
       "kind": "domains",
@@ -801,8 +741,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 11,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Поисковые и исследовательские ИИ-системы: Perplexity (perplexity.ai, pplx.ai), You.com, Genspark, Consensus, Elicit и Scite."
-    },
+     },
     {
       "id": "tachyon:copilot",
       "kind": "domains",
@@ -815,8 +754,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 15,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Все домены автодополнения кода GitHub Copilot (githubcopilot.com, copilot-proxy.githubusercontent.com) и ассистента Microsoft Copilot в Windows, Edge и Office 365 (copilot.microsoft.com, sydney.bing.com)."
-    },
+     },
     {
       "id": "tachyon:deepseek",
       "kind": "domains",
@@ -829,8 +767,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 12,
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены DeepSeek (deepseek.com, chat.deepseek.com, api.deepseek.com), Moonshot Kimi (kimi.ai), Alibaba Qwen Chat (chat.qwen.ai), MiniMax, Z.ai, Manus (manus.im) и Dify."
-    },
+     },
     {
       "id": "tachyon:midjourney",
       "kind": "domains",
@@ -843,8 +780,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 42,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Платформы генерации графики, дизайна и 3D: Midjourney (midjourney.com), Civitai (civitai.com), Black Forest Labs / Flux (bfl.ai), Leonardo.ai, Ideogram, Krea, Recraft, Magnific, Stability AI, ComfyUI Registry, OpenArt, Tripo3D и Meshy."
-    },
+     },
     {
       "id": "tachyon:elevenlabs",
       "kind": "domains",
@@ -857,8 +793,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 46,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Сервисы генерации звука, клонирования голоса, музыки и видео: ElevenLabs (elevenlabs.io), Suno (suno.com), Udio (udio.com), Runway (runwayml.com), Kling AI (klingai.com), Luma Dream Machine, Pika, Hailuo Video, HeyGen, Synthesia, Vidu и PixVerse."
-    },
+     },
     {
       "id": "tachyon:huggingface",
       "kind": "domains",
@@ -871,8 +806,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 49,
-      "description_ru": "[Маршрут: В Прокси / VPN] Репозитории моделей и датасетов Hugging Face (huggingface.co, hf.co), каталоги локальных LLM (ollama.com, lmstudio.ai, openwebui.com), а также платформы ролевых ИИ-персонажей (Character.AI, JanitorAI, Chub, NovelAI) и ML-инфраструктура (Weights & Biases, Kaggle, LangChain)."
-    },
+     },
     {
       "id": "tachyon:ai_video",
       "kind": "domains",
@@ -885,8 +819,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 37,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Ведущие нейросети генерации видео, анимации, говорящих аватаров и VFX: Kling AI (klingai.com), Hailuo AI / MiniMax (hailuoai.video), Luma Dream Machine (lumalabs.ai), Pika Art (pika.art), HeyGen (heygen.com), Synthesia, Vidu, PixVerse, Higgsfield AI, Hedra, Topaz Labs и Magnific AI."
-    },
+     },
     {
       "id": "tachyon:ai_cloud_gpu",
       "kind": "domains",
@@ -899,8 +832,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 34,
-      "description_ru": "[Маршрут: В Прокси / VPN] Платформы почасовой аренды GPU (A100/H100/RTX 4090) под Stable Diffusion / Flux / LLM и бессерверного API-инференса: RunPod (runpod.io), Vast.ai (vast.ai), Replicate (replicate.com), Fal.ai (fal.ai, fal.run), Together AI, Fireworks AI, Modal, Lambda Labs, Baseten, DeepInfra и Chutes AI."
-    },
+     },
     {
       "id": "tachyon:youtube",
       "kind": "domains",
@@ -913,8 +845,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 182,
-      "description_ru": "[Маршрут: В Desync / Zapret или Прокси / VPN] Полный набор доменов YouTube: youtube.com, youtu.be, googlevideo.com (видеопотоки GGC), ytimg.com (превью), ggpht.com (аватарки каналов), youtubei.googleapis.com и YouTube Music."
-    },
+     },
     {
       "id": "tachyon:twitch",
       "kind": "domains",
@@ -927,8 +858,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 43,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Все домены платформы Twitch (twitch.tv, ttvnw.net, jtvnw.net, live-video.net). Для снятия лимита 720p и отключения рекламы без проксирования самого видеопотока используйте список «Twitch (без рекламы и 1080p+)»."
-    },
+     },
     {
       "id": "tachyon:twitch_ads",
       "kind": "domains",
@@ -941,8 +871,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 5,
-      "description_ru": "[Маршрут: Только в Прокси / VPN] Узкий список серверов выбора качества потока и рекламных вставок Twitch (usher.ttvnw.net, gql.twitch.tv, edge.ads.twitch.tv). Направьте его в Прокси (оставив остальной Twitch напрямую): видеопоток пойдёт напрямую без нагрузки на VPN, но пропадёт реклама и вернётся качество 1080p60 / 1440p."
-    },
+     },
     {
       "id": "tachyon:spotify",
       "kind": "domains",
@@ -955,8 +884,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 25,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Все домены Spotify: spotify.com, scdn.co, spotifycdn.com, audio-ak-spotify-com.akamaized.net, psavn.com и серверы авторизации приложений."
-    },
+     },
     {
       "id": "svc_tachyon_netflix",
       "kind": "domains",
@@ -972,8 +900,7 @@
       "same_as_ip": [
         "tachyon:netflix"
       ],
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Домены видеосервиса Netflix: netflix.com, nflxvideo.net, nflximg.net, nflxso.net, nflxext.com и проверка скорости fast.com."
-    },
+     },
     {
       "id": "tachyon:tiktok",
       "kind": "domains",
@@ -986,8 +913,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 53,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — региональный блок РФ] Домены TikTok и ByteDance (tiktok.com, tiktokv.com, tiktokcdn.com, byteoversea.com, musical.ly) для просмотра новых видео и стримов без региональных ограничений в РФ."
-    },
+     },
     {
       "id": "tachyon:hdrezka",
       "kind": "domains",
@@ -1000,8 +926,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 17,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Домены, зеркала и CDN видеопотоков онлайн-кинотеатра HDRezka (rezka.ag, hdrezka.ag, voidboost.cc, stream.voidboost.cc и связанные балансеры)."
-    },
+     },
     {
       "id": "tachyon:anime",
       "kind": "domains",
@@ -1014,8 +939,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 42,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Популярные аниме-порталы, базы данных и видеоплееры: Shikimori, AnimeGO, Jut.su, YummyAnime, Anilibria, Kodik, Sibnet, Crunchyroll и MyAnimeList."
-    },
+     },
     {
       "id": "tachyon:pinterest",
       "kind": "domains",
@@ -1028,8 +952,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 52,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Домены визуальной соцсети Pinterest: pinterest.com, pin.it и CDN картинок i.pinimg.com / s.pinimg.com (обеспечивает стабильную загрузку медиаконтента)."
-    },
+     },
     {
       "id": "tachyon:soundcloud_music",
       "kind": "domains",
@@ -1042,8 +965,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 30,
-      "description_ru": "[Маршрут: В Прокси / VPN] Музыкальные сервисы и энциклопедии с региональными ограничениями или геоблоком: SoundCloud (soundcloud.com, sndcdn.com), Deezer (deezer.com, dzcdn.net), Tidal (tidal.com), Qobuz, Bandcamp, Genius (genius.com), Last.fm, Mixcloud, TuneIn и Discogs."
-    },
+     },
     {
       "id": "tachyon:rutracker_lampa",
       "kind": "domains",
@@ -1056,8 +978,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 123,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Народный набор для дома и Android TV: зеркала RuTracker, Rutor, NNM-Club, Kinozal, LostFilm, KinoPub, балансеры и плагины Lampa (Filmix, Cub, BWA, Zetflix), а также книжные и научные библиотеки (Flibusta, Coollib, Z-Library, Anna's Archive, LibGen, Sci-Hub)."
-    },
+     },
     {
       "id": "tachyon:patreon_creators",
       "kind": "domains",
@@ -1070,8 +991,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 50,
-      "description_ru": "[Маршрут: В Прокси / VPN] Платформы поддержки авторов, блогов и цифрового арта с региональными ограничениями или геоблоком: Patreon (patreon.com), Medium (medium.com), Substack, DeviantArt, ArtStation, Pixiv (pixiv.net, pximg.net), Gumroad, Ko-fi, AO3, Ficbook, Goodreads и Letterboxd."
-    },
+     },
     {
       "id": "tachyon:youtube_images",
       "kind": "domains",
@@ -1084,8 +1004,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 11,
-      "description_ru": "[Маршрут: В Прокси / VPN — при раздельной маршрутизации видеопотока] Серверы обложек роликов (i.ytimg.com, i9.ytimg.com), аватарок каналов (yt3.ggpht.com, yt4.ggpht.com) и веб-интерфейса YouTube без тяжёлых видеосерверов googlevideo.com. Позволяет направить загрузку статики и миниатюр через отдельный прокси-туннель."
-    },
+     },
     {
       "id": "tachyon:tmdb_metadata",
       "kind": "domains",
@@ -1098,8 +1017,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 43,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Базы метаданных, обложек, актёров и описаний фильмов и музыки: The Movie Database (themoviedb.org, image.tmdb.org, api.themoviedb.org — для загрузки постеров в Lampa, Plex, Kodi, Jellyfin и Infuse), TheTVDB, IMDb, Trakt.tv, Fanart.tv, OpenSubtitles, Last.fm, MusicBrainz и Discogs."
-    },
+     },
     {
       "id": "tachyon:streaming_west",
       "kind": "domains",
@@ -1112,8 +1030,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 335,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Западные стриминговые сервисы и медиасерверы: Disney+ (disneyplus.com, bamgrid.com), Max / HBO (max.com, hbomax.com), Amazon Prime Video (primevideo.com, aiv-cdn.net), Hulu, Paramount+, Peacock, MUBI и облако домашнего медиасервера Plex (plex.tv, plex.direct)."
-    },
+     },
     {
       "id": "tachyon:books_archives",
       "kind": "domains",
@@ -1126,8 +1043,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 121,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Архив интернета (archive.org / Wayback Machine), архивы веб-страниц (archive.is, archive.ph, ghostarchive.org), крупнейшие библиотеки книг и научных статей: Anna's Archive, Z-Library (z-lib.gs, singlelogin.re), Library Genesis (libgen.is), Sci-Hub, Project Gutenberg, ResearchGate, Academia.edu и AO3 (archiveofourown.org)."
-    },
+     },
     {
       "id": "tachyon:podcasts_radio",
       "kind": "domains",
@@ -1140,8 +1056,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 57,
-      "description_ru": "[Маршрут: В Прокси / VPN] Зарубежные CDN-хостинги подкастов (megaphone.fm, art19.com, simplecast.com, acast.com, omny.fm, buzzsprout.com, libsyn.com, podbean.com — используются для загрузки выпусков в приложении «Подкасты» на iPhone), плееры Pocket Casts и Overcast, аудиокниги Audible, Storytel, Bookmate и интернет-радио TuneIn Radio, DI.FM и Radio Garden."
-    },
+     },
     {
       "id": "svc_tachyon_discord",
       "kind": "domains",
@@ -1157,8 +1072,7 @@
       "same_as_ip": [
         "tachyon:discord"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Все домены и подсети Discord: discord.com, discord.gg, discordapp.com, discordapp.net, discord.media и голосовые серверы."
-    },
+     },
     {
       "id": "svc_tachyon_telegram",
       "kind": "domains",
@@ -1174,8 +1088,7 @@
       "same_as_ip": [
         "tachyon:telegram"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены (telegram.org, t.me, web.telegram.org, telegra.ph, telesco.pe) и официальные IPv4/IPv6-подсети всех датацентров Telegram для работы звонков, кружочков и быстрой загрузки медиа."
-    },
+     },
     {
       "id": "svc_tachyon_meta",
       "kind": "domains",
@@ -1191,8 +1104,7 @@
       "same_as_ip": [
         "tachyon:meta"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Все домены и IP-подсети компании Meta: instagram.com, cdninstagram.com, facebook.com, fbcdn.net, threads.net и messenger.com (без WhatsApp)."
-    },
+     },
     {
       "id": "svc_tachyon_twitter",
       "kind": "domains",
@@ -1208,8 +1120,7 @@
       "same_as_ip": [
         "tachyon:twitter"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Домены и IP-подсети соцсети X / Twitter: x.com, twitter.com, t.co, twimg.com, abs.twimg.com, pbs.twimg.com и video.twimg.com."
-    },
+     },
     {
       "id": "tachyon:whatsapp",
       "kind": "domains",
@@ -1222,8 +1133,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 12,
-      "description_ru": "[Маршрут: В Прокси / VPN или Direct] Все домены WhatsApp (whatsapp.com, whatsapp.net, wa.me) отдельно от Instagram и Facebook: позволяет точечно маршрутизировать звонки и сообщения WhatsApp без проксирования тяжёлого видео-трафика Instagram."
-    },
+     },
     {
       "id": "tachyon:messengers",
       "kind": "domains",
@@ -1236,8 +1146,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 29,
-      "description_ru": "[Маршрут: В Прокси / VPN] Альтернативные мессенджеры и голосовые серверы для командной связи: Signal (signal.org, whispersystems.org), Viber (viber.com), TeamSpeak 3/5 (teamspeak.com, myteamspeak.com), Guilded, Element / Matrix, Threema, Session, SimpleX и Wire."
-    },
+     },
     {
       "id": "tachyon:reddit",
       "kind": "domains",
@@ -1250,8 +1159,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 12,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Все домены и медиа-CDN платформы Reddit: reddit.com, redd.it, v.redd.it, i.redd.it, redditmedia.com и redditstatic.com (устраняет зависание видео и картинок)."
-    },
+     },
     {
       "id": "svc_tachyon_zoom_teams",
       "kind": "domains",
@@ -1267,8 +1175,7 @@
       "same_as_ip": [
         "tachyon:zoom_teams"
       ],
-      "description_ru": "[Маршрут: Напрямую (Direct) для минимальной задержки или в Прокси при корпоративном геоблоке] Платформы удалённой работы и видеозвонков: Zoom (zoom.us), Google Meet (meet.google.com + STUN/TURN подсети), Microsoft Teams, Cisco Webex, Slack (slack.com), Loom, Gather, Whereby и Jitsi."
-    },
+     },
     {
       "id": "tachyon:linkedin",
       "kind": "domains",
@@ -1281,8 +1188,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 22,
-      "description_ru": "[Маршрут: В Прокси / VPN] Профессиональная соцсеть LinkedIn (linkedin.com, licdn.com, lnkd.in, slideshare.net), а также международные карьерные порталы Glassdoor, Indeed, Wellfound (AngelList) и Levels.fyi."
-    },
+     },
     {
       "id": "svc_tachyon_discord_voice",
       "kind": "domains",
@@ -1298,8 +1204,7 @@
       "same_as_ip": [
         "tachyon:discord_voice"
       ],
-      "description_ru": "[Маршрут: В низкопинговый игровой Прокси / VPN с поддержкой UDP или Desync] Узкий список голосовых и видео-шлюзов Discord (*.discord.media и UDP-подсети голосовых серверов Discord). Позволяет направить голосовые каналы и стриминг экрана через самый быстрый узел с минимальным пингом отдельно от основного чата и картинок Discord."
-    },
+     },
     {
       "id": "svc_tachyon_games_all",
       "kind": "domains",
@@ -1315,8 +1220,7 @@
       "same_as_ip": [
         "tachyon:games_all"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN или Direct] Единый сводный список всех популярных игровых лаунчеров, магазинов, античитов (BattlEye, EasyAntiCheat) и серверов: Steam, Epic Games, Ubisoft Connect, War Thunder / Gaijin, Battle.net / Blizzard, EA App / Origin, Riot Games, Xbox Live, PlayStation Network, Nintendo, GOG, Wargaming, HoYoverse, Minecraft, Rockstar, Roblox, Supercell, Escape from Tarkov, FACEIT и PUBG."
-    },
+     },
     {
       "id": "tachyon:steam",
       "kind": "domains",
@@ -1329,8 +1233,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 60,
-      "description_ru": "[Маршрут: Напрямую (Direct) или в Прокси для смены региона магазина] Все домены экосистемы Valve и Steam: store.steampowered.com, steamcommunity.com, steamstatic.com, steamusercontent.com, steamcontent.com и steamserver.net."
-    },
+     },
     {
       "id": "svc_tachyon_epicgames",
       "kind": "domains",
@@ -1346,8 +1249,7 @@
       "same_as_ip": [
         "tachyon:epicgames"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN (для раздач/покупок) или Direct] Домены Epic Games Store, Fortnite, Rocket League, Fall Guys, движка Unreal Engine, Fab/Quixel и античита EasyAntiCheat (epicgames.com, unrealengine.com, fortnite.com, easy.ac)."
-    },
+     },
     {
       "id": "tachyon:ubisoft",
       "kind": "domains",
@@ -1360,8 +1262,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 58,
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены лаунчера Ubisoft Connect (Uplay), серверов авторизации, облачных сохранений, CDN обновлений и античитов (ubisoft.com, ubi.com, ubisoftconnect.com, uplay.com, rainbowsix.com, ubistatic-a.akamaihd.net, battleye.com)."
-    },
+     },
     {
       "id": "tachyon:warthunder",
       "kind": "domains",
@@ -1374,8 +1275,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 16,
-      "description_ru": "[Маршрут: В Прокси / VPN или Direct] Домены игр и лаунчера Gaijin Entertainment: War Thunder (warthunder.com, wtmobile.com), Enlisted (enlisted.net), Crossout (crossout.net), CRSED, Star Conflict, Modern Warships, магазин Gaijin.Net и мастер-серверы обновлений."
-    },
+     },
     {
       "id": "tachyon:blizzard",
       "kind": "domains",
@@ -1388,8 +1288,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 70,
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены лаунчера Battle.net, магазина и серверов Activision Blizzard: battle.net, blizzard.com, activision.com, callofduty.com, worldofwarcraft.com, playoverwatch.com, diablo4.com, playhearthstone.com и CDN загрузок."
-    },
+     },
     {
       "id": "svc_tachyon_callofduty",
       "kind": "domains",
@@ -1405,8 +1304,7 @@
       "same_as_ip": [
         "tachyon:callofduty"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN (устраняет ошибки HUENEME-NEGEV / TRAVIS-RILEA и вечный цикл «Обновление завершено. Требуется перезапуск»)] Полный список доменов и 805 IP-подсетей матчей Call of Duty для Steam, Battle.net, Xbox Game Pass и PlayStation: шлюзы матчмейкинга и лобби Demonware (demonware.net + AS60229), CDN микропатчей и шейдеров Beenox (d2cyf1jgpkmugk.cloudfront.net, fastdl/content.callofduty.com, cod-live-updates.activision.com, blzstatic.com) и игровые серверы Warzone."
-    },
+     },
     {
       "id": "tachyon:riot",
       "kind": "domains",
@@ -1419,8 +1317,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 54,
-      "description_ru": "[Маршрут: В Прокси / VPN или Direct] Сервисы авторизации, обновлений и матчей Riot Games: riotgames.com, leagueoflegends.com, playvalorant.com, pvp.net и riotcdn.net."
-    },
+     },
     {
       "id": "svc_tachyon_origin",
       "kind": "domains",
@@ -1436,8 +1333,7 @@
       "same_as_ip": [
         "tachyon:origin"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены Electronic Arts: ea.com, origin.com, tnt-ea.com, apexlegends.com и серверы авторизации, античита и загрузки игр EA App."
-    },
+     },
     {
       "id": "tachyon:xbox",
       "kind": "domains",
@@ -1450,8 +1346,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 68,
-      "description_ru": "[Маршрут: В Прокси / VPN] Экосистема Xbox и игровых студий Microsoft / Bethesda: xbox.com, xboxlive.com, gamepass.com, xboxservices.com, forzamotorsport.net, halowaypoint.com, seaofthieves.com, flightsimulator.com, bethesda.net, doom.com и elderscrolls.com."
-    },
+     },
     {
       "id": "tachyon:playstation",
       "kind": "domains",
@@ -1464,8 +1359,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 16,
-      "description_ru": "[Маршрут: В Прокси / VPN] Сетевые сервисы Sony PlayStation: playstation.com, playstation.net, playstationnetwork.com, sonyentertainmentnetwork.com, CDN загрузок dl.playstation.net, а также Bungie / Helldivers 2."
-    },
+     },
     {
       "id": "tachyon:nintendo",
       "kind": "domains",
@@ -1478,8 +1372,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 131,
-      "description_ru": "[Маршрут: В Прокси / VPN] Все домены консолей Nintendo Switch, магазина eShop, подписки Nintendo Switch Online и игр Pokémon / Zelda / Mario / Splatoon (nintendo.com, nintendo.net, nintendowifi.net, pokemon.com)."
-    },
+     },
     {
       "id": "tachyon:gog",
       "kind": "domains",
@@ -1492,8 +1385,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 14,
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены магазина без DRM GOG.com, клиента GOG Galaxy и студий CD Projekt RED (gog.com, gogalaxy.com, gog-statics.com, cdprojektred.com, cyberpunk.net, thewitcher.com)."
-    },
+     },
     {
       "id": "tachyon:wargaming",
       "kind": "domains",
@@ -1506,8 +1398,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 16,
-      "description_ru": "[Маршрут: В Прокси / VPN] Европейские и глобальные серверы Wargaming.net, лаунчер Wargaming Game Center, World of Tanks, World of Warships и WoT Blitz (wargaming.net, worldoftanks.eu, worldofwarships.eu, wotblitz.com, wgcdn.co)."
-    },
+     },
     {
       "id": "tachyon:hoyoverse",
       "kind": "domains",
@@ -1520,8 +1411,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 45,
-      "description_ru": "[Маршрут: В Прокси / VPN или Direct] Домены лаунчера HoYoPlay, HoYoLAB и популярных гача-игр: Genshin Impact, Honkai: Star Rail, Zenless Zone Zero, Honkai Impact 3rd, Wuthering Waves (Kuro Games), Arknights, Azur Lane и NIKKE."
-    },
+     },
     {
       "id": "tachyon:minecraft",
       "kind": "domains",
@@ -1534,8 +1424,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 45,
-      "description_ru": "[Маршрут: В Прокси / VPN] Официальные серверы авторизации и скинов Minecraft / Mojang (minecraft.net, mojang.com, minecraftservices.com), а также главные платформы модов, плагинов и кастомных лаунчеров: CurseForge (forgecdn.net), Modrinth, NexusMods, PrismLauncher, Lunar/Badlion, Fabric, Forge, NeoForge и PaperMC."
-    },
+     },
     {
       "id": "tachyon:rockstar",
       "kind": "domains",
@@ -1548,8 +1437,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 24,
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены Rockstar Games Launcher, Social Club, GTA Online, Red Dead Online, серверов ролевых проектов FiveM / RedM (cfx.re), а также 2K Games (Civilization, NBA 2K, Borderlands, Mafia)."
-    },
+     },
     {
       "id": "svc_tachyon_pubg",
       "kind": "domains",
@@ -1565,8 +1453,7 @@
       "same_as_ip": [
         "tachyon:pubg"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Популярные сетевые игры и античит-системы: PUBG / Krafton, THE FINALS и ARC Raiders (Embark), DayZ и Arma (Bohemia), VRChat, Dead by Daylight, Path of Exile, Warframe, Guild Wars 2, Albion Online, Rust, Squad, Warner Bros. Games (Mortal Kombat), osu! и античиты BattlEye / EasyAntiCheat."
-    },
+     },
     {
       "id": "svc_tachyon_roblox",
       "kind": "domains",
@@ -1582,8 +1469,7 @@
       "same_as_ip": [
         "tachyon:roblox"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Все домены и игровые IP-подсети Roblox: roblox.com, rbxcdn.com, rbx.com, robloxlabs.com и голосовой чат."
-    },
+     },
     {
       "id": "tachyon:supercell",
       "kind": "domains",
@@ -1596,8 +1482,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 24,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Игровые серверы, домены авторизации Supercell ID и CDN обновлений для всех мобильных игр Supercell (блокируют вход с российских и белорусских IP)."
-    },
+     },
     {
       "id": "tachyon:escapefromtarkov",
       "kind": "domains",
@@ -1610,8 +1495,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 6,
-      "description_ru": "[Маршрут: В Прокси / VPN или Direct] Домены игры Escape from Tarkov и EFT: Arena (escapefromtarkov.com, tarkov.com, battlestategames.com и CDN обновлений)."
-    },
+     },
     {
       "id": "tachyon:faceit",
       "kind": "domains",
@@ -1624,8 +1508,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 9,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Домены платформы FACEIT (faceit.com, faceit-cdn.net) для открытия лобби, статистики и работы клиента без бесконечной загрузки."
-    },
+     },
     {
       "id": "svc_tachyon_game_backends",
       "kind": "domains",
@@ -1641,8 +1524,7 @@
       "same_as_ip": [
         "tachyon:game_backends"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN (с UDP) или Desync] Сетевая инфраструктура сотен мультиплеерных игр и внутриигрового голосового чата: войс-движок Vivox (vivox.com, unity3d.com — чинит голосовой чат в Valorant, PUBG, LoL, Fortnite, Overwatch 2, Rainbow Six), облако кооп-игр Photon Engine (photonengine.com, exitgames.com + UDP-подсети — чинит Phasmophobia, R.E.P.O., Content Warning, Lethal Company, VRChat, Among Us), Azure PlayFab (playfabapi.com — Helldivers 2, Sea of Thieves, Minecraft) и Epic Online Services (epicgames.dev)."
-    },
+     },
     {
       "id": "svc_tachyon_cs2_dota2",
       "kind": "domains",
@@ -1658,8 +1540,7 @@
       "same_as_ip": [
         "tachyon:cs2_dota2"
       ],
-      "description_ru": "[Маршрут: В игровой Прокси с минимальным пингом или Direct] Только соревновательные серверы матчей Valve, релеи Steam Datagram Relay (steamdatagram.com, valve.net и подсети AS32590 Valve Corporation) и игровой координатор (CS2, Dota 2, Deadlock, TF2) — без тяжёлого магазина и скачивания игр Steam."
-    },
+     },
     {
       "id": "tachyon:survival_coop",
       "kind": "domains",
@@ -1672,8 +1553,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 50,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Серверы входа, инвентаря и матчмейкинга популярных мультиплеерных экшенов и кооп-игр, размещённых на инфраструктуре Amazon AWS / GameLift и Hetzner: Dead by Daylight (bhvrdbd.com), Rust (facepunch.com, playrust.com), Hunt: Showdown 1896 (huntshowdown.com, crytek.com), Helldivers 2, Palworld, ARK, Valheim, Satisfactory, Deep Rock Galactic, Dune: Awakening и Sea of Thieves."
-    },
+     },
     {
       "id": "tachyon:mmorpg",
       "kind": "domains",
@@ -1686,8 +1566,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 40,
-      "description_ru": "[Маршрут: В Прокси / VPN] Серверы авторизации, патчеры и торговые площадки ведущих MMORPG: Path of Exile 1 и PoE 2 (pathofexile.com, poecdn.com, grindinggear.com), Guild Wars 2 (guildwars2.com, arena.net, ncsoft.com), Final Fantasy XIV (finalfantasyxiv.com, sqex.com), The Elder Scrolls Online (elderscrollsonline.com), Albion Online (albiononline.com), Black Desert, EVE Online, Star Citizen, Lost Ark и RuneScape."
-    },
+     },
     {
       "id": "tachyon:netease_tencent_games",
       "kind": "domains",
@@ -1700,8 +1579,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 147,
-      "description_ru": "[Маршрут: В Прокси / VPN] Игровые бэкенды, лаунчеры, античиты и CDN-серверы глобальных хитов от NetEase Games и Tencent Level Infinite: Marvel Rivals (marvelrivals.com), Delta Force (playdeltaforce.com), Once Human (oncehuman.game), Arena Breakout: Infinite, Naraka: Bladepoint, FragPunk, PUBG Mobile, NIKKE и Strinova (netease.com, easebar.com, loadingbay.com, intlgame.com, proximabeta.com)."
-    },
+     },
     {
       "id": "tachyon:japanese_publishers",
       "kind": "domains",
@@ -1714,8 +1592,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 50,
-      "description_ru": "[Маршрут: В Прокси / VPN] Онлайн-сервисы и серверы коопа/матчмейкинга японских игровых издателей: FromSoftware и Bandai Namco (Elden Ring, Elden Ring Nightreign, Dark Souls, Armored Core VI — fromsoftware-game.jp, bandainamcoent.com), Capcom (Monster Hunter Wilds / World, Resident Evil, Capcom ID — capcom.com), SEGA и Atlus (Sonic, Like a Dragon, Persona — sega.com), Square Enix и Konami (eFootball, Yu-Gi-Oh!, Metal Gear)."
-    },
+     },
     {
       "id": "tachyon:fighting_racing",
       "kind": "domains",
@@ -1728,8 +1605,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 39,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — WB Games блокирует РФ по IP] Серверы онлайна и профилей файтингов и гоночных симуляторов: Mortal Kombat 1 / 11 и игры Warner Bros. Games (wbgames.com, wbplay.com, agoragames.com — закрыты для российских IP), Tekken 8, Street Fighter 6 (buckler.capcom.com), Guilty Gear Strive, а также симрейсинг iRacing (iracing.com), Assetto Corsa / LFM (lowfuelmotorsport.com), Le Mans Ultimate, RaceRoom, Fanatec, Moza Racing и Simagic."
-    },
+     },
     {
       "id": "tachyon:strategy_sim",
       "kind": "domains",
@@ -1742,8 +1618,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 110,
-      "description_ru": "[Маршрут: В Прокси / VPN] Лаунчеры, моды и мультиплеер глобальных стратегий и симуляторов: Paradox Interactive (Hearts of Iron IV, Stellaris, Europa Universalis IV, Crusader Kings III, Cities: Skylines — paradoxinteractive.com, paradoxplaza.com), Sid Meier's Civilization (2K), Age of Empires, Total War, Euro Truck Simulator 2 (TruckersMP), а также серверы фотограмметрии, погоды и навигации Microsoft Flight Simulator 2020/2024, X-Plane, Navigraph и VATSIM."
-    },
+     },
     {
       "id": "tachyon:meta_quest",
       "kind": "domains",
@@ -1756,8 +1631,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 27,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — обязательно для работы Meta Quest в РФ] Выделенный список доменов VR-экосистемы Meta Quest 2 / 3 / 3S / Pro (oculus.com, oculuscdn.com, meta.com, graph.oculus.com, securecdn.oculus.com), Pico VR (picoxr.com) и SideQuest. Позволяет активировать шлем, обновлять прошивку Horizon OS и скачивать игры на полной скорости, не проксируя весь остальной трафик Instagram/Facebook."
-    },
+     },
     {
       "id": "tachyon:chess_boardgames",
       "kind": "domains",
@@ -1770,8 +1644,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 32,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Крупнейший шахматный портал Chess.com (chess.com, chesscomfiles.com), Lichess (lichess.org), географическая игра GeoGuessr (geoguessr.com), виртуальные столы для настольных и ролевых игр D&D Beyond (dndbeyond.com, wizards.com), Roll20 (roll20.net), Foundry VTT, BoardGameArena и Tabletopia."
-    },
+     },
     {
       "id": "tachyon:gaming_mods_stats",
       "kind": "domains",
@@ -1784,8 +1657,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 72,
-      "description_ru": "[Маршрут: В Прокси / VPN] Платформы моддинга, игровых оверлеев, трейнеров и киберспортивной статистики за CDN Cloudflare и с региональными ограничениями: Thunderstore Mod Manager / r2modman (thunderstore.io, gcdn.thunderstore.io), Overwolf (overwolf.com), WeMod, ModDB, GameBanana, SteamDB, Tracker.gg, OP.GG, U.GG, Mobalytics, Dotabuff, OpenDota, Stratz, Leetify, Maxroll, Wowhead, Poe.ninja и HLTV.org."
-    },
+     },
     {
       "id": "tachyon:apple",
       "kind": "domains",
@@ -1798,8 +1670,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 1590,
-      "description_ru": "[Маршрут: Напрямую (Direct) или в Прокси для Apple Intelligence] Все домены экосистемы Apple: apple.com, icloud.com, mzstatic.com, aaplimg.com, cdn-apple.com, itunes.apple.com и серверы Apple Intelligence / Siri."
-    },
+     },
     {
       "id": "tachyon:microsoft",
       "kind": "domains",
@@ -1812,8 +1683,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 646,
-      "description_ru": "[Маршрут: В Прокси / VPN (для Copilot, Xbox и ISO Windows) или Direct] Все сервисы Microsoft: microsoft.com, live.com, office.com, sharepoint.com, onedrive.com, xbox.com, microsoftonline.com, visualstudio.com и серверы обновлений Windows."
-    },
+     },
     {
       "id": "tachyon:google_play",
       "kind": "domains",
@@ -1826,8 +1696,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 32,
-      "description_ru": "[Маршрут: В Прокси / VPN (для платных приложений и смены региона) или Direct] Домены магазина Google Play и скачивания приложений Android: play.google.com, play.googleapis.com, android.clients.google.com, gvt1.com, gvt2.com и xn--ngstr-lra8j.com."
-    },
+     },
     {
       "id": "tachyon:github",
       "kind": "domains",
@@ -1840,8 +1709,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 60,
-      "description_ru": "[Маршрут: В Прокси / VPN (для Copilot и стабильной загрузки релизов) или Direct] Все домены GitHub: github.com, githubusercontent.com, githubassets.com, ghcr.io, github.io, gist.github.com и api.github.com."
-    },
+     },
     {
       "id": "tachyon:docker",
       "kind": "domains",
@@ -1854,8 +1722,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 6,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Домены Docker, закрывшие скачивание контейнеров с российских IP: docker.com, hub.docker.com, docker.io, registry-1.docker.io, production.cloudflare.docker.com и download.docker.com."
-    },
+     },
     {
       "id": "tachyon:hodca",
       "kind": "domains",
@@ -1868,8 +1735,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 249,
-      "description_ru": "[Маршрут: В Прокси / VPN] Серверы проверки отзыва SSL-сертификатов (OCSP и CRL) мировых удостоверяющих центров: DigiCert, Sectigo, Comodo, GlobalSign, Entrust, Let's Encrypt и Amazon Trust (устраняет зависания при открытии HTTPS-сайтов из-за геоблока OCSP)."
-    },
+     },
     {
       "id": "tachyon:jetbrains",
       "kind": "domains",
@@ -1882,8 +1748,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 34,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Все домены экосистемы JetBrains (jetbrains.com, marketplace.jetbrains.com, download.jetbrains.com, account.jetbrains.com, kotlinlang.org), загрузки Android Studio / SDK (dl.google.com, developer.android.com), Gradle и Maven Central."
-    },
+     },
     {
       "id": "tachyon:gitlab_notion",
       "kind": "domains",
@@ -1896,8 +1761,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 52,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Рабочие пространства, репозитории и сервисы мониторинга, закрывшие доступ из РФ: GitLab (gitlab.com), Atlassian (Jira, Confluence, Bitbucket, Trello), Notion (notion.so), Miro, Linear, Asana, ClickUp, Monday, Airtable, Postman, Sentry, Datadog и Grafana Cloud."
-    },
+     },
     {
       "id": "tachyon:figma_adobe",
       "kind": "domains",
@@ -1910,8 +1774,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 179,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Платформы UI/UX-дизайна, графики и стоков: Figma (figma.com), Canva (canva.com), Adobe Creative Cloud & Firefly AI (adobe.com, adobe.io, behance.net), Framer, Webflow, Dribbble, Freepik, Flaticon, Envato, Shutterstock, Unsplash и Autodesk."
-    },
+     },
     {
       "id": "tachyon:pkg_registries",
       "kind": "domains",
@@ -1924,8 +1787,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 65,
-      "description_ru": "[Маршрут: В Прокси / VPN] Репозитории пакетов, библиотек и Linux-дистрибутивов: HashiCorp (Terraform, Vagrant, Vault — жёсткий геоблок РФ), npm, Yarn, pnpm, Bun, Deno, jsDelivr, PyPI, Anaconda, PyTorch, Rust Crates.io, Go Proxy, NuGet, Packagist, Homebrew, GHCR, Quay.io, Kubernetes (k8s.io), Arch, Alpine, Debian/Ubuntu и OpenWrt."
-    },
+     },
     {
       "id": "tachyon:google_services",
       "kind": "domains",
@@ -1938,8 +1800,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 838,
-      "description_ru": "[Маршрут: Напрямую (Direct) или В Прокси / VPN по выбору] Основная экосистема поиска и офисных сервисов Google (google.com, gmail.com, drive.google.com, docs.google.com, maps.google.com, translate.google.com, gstatic.com, googleapis.com, googleusercontent.com), из которой исключены домены YouTube (youtube.com, googlevideo.com) и нейросетей Google AI (gemini.google.com, aistudio.google.com)."
-    },
+     },
     {
       "id": "tachyon:captcha_auth",
       "kind": "domains",
@@ -1952,8 +1813,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 25,
-      "description_ru": "[Маршрут: В Прокси / VPN или Direct (в зависимости от сайта)] Виджеты проверки на робота и провайдеры единой авторизации (SSO / OAuth / Passkeys): Cloudflare Turnstile (challenges.cloudflare.com), hCaptcha (hcaptcha.com), Google reCAPTCHA (recaptcha.net), Arkose Labs / FunCaptcha (arkoselabs.com, funcaptcha.com — капча в Steam, Roblox, EA, GitHub, OpenAI), GeeTest, DataDome, Auth0, Okta и Clerk."
-    },
+     },
     {
       "id": "tachyon:cloud_gaming_remote",
       "kind": "domains",
@@ -1966,8 +1826,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 97,
-      "description_ru": "[Маршрут: В Прокси / VPN] Сервисы облачного гейминга и удалённого управления ПК: NVIDIA GeForce NOW (geforcenow.com, nvidiagrid.net — проверяет зарубежный IP только при входе и старте игры, после чего видеопоток идёт напрямую), Boosteroid, Parsec (parsec.app), Shadow, а также TeamViewer, AnyDesk (anydesk.com), RustDesk, NoMachine, Tailscale и ZeroTier."
-    },
+     },
     {
       "id": "tachyon:cloud_storage",
       "kind": "domains",
@@ -1980,8 +1839,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 99,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Зарубежные облачные диски и популярные файлообменники, где публикуют прошивки, моды и рабочие архивы: MEGA (mega.nz, mega.co.nz, mega.io), Dropbox (dropbox.com), WeTransfer (wetransfer.com, we.tl), Pixeldrain (pixeldrain.com), GoFile (gofile.io), Catbox (catbox.moe), MediaFire, Box.com, pCloud, Sync.com и TeraBox."
-    },
+     },
     {
       "id": "tachyon:gamedev_3d",
       "kind": "domains",
@@ -1994,8 +1852,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 609,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Профессиональный софт для 3D-моделирования, рендера, CAD и разработки игр: Unity Engine, Unity Hub и Asset Store (unity.com, unity3d.com — закрыты для RU IP), Autodesk (AutoCAD, 3ds Max, Maya, Revit, Fusion 360 — autodesk.com), Chaos Group (V-Ray, Corona, Enscape), Maxon (Cinema 4D, Redshift, ZBrush), Blender, Godot, SideFX Houdini, Quixel Megascans / Fab.com, Sketchfab, ArtStation, Poly Haven и Printables."
-    },
+     },
     {
       "id": "tachyon:security_passwords",
       "kind": "domains",
@@ -2008,8 +1865,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 138,
-      "description_ru": "[Маршрут: В Прокси / VPN] Менеджеры паролей и ключей: Bitwarden (bitwarden.com, bitwarden.eu), 1Password (1password.com), NordPass, Dashlane, Keeper, Enpass; защищённая экосистема Proton (Proton Mail, Proton Pass, Proton Drive — proton.me, protonmail.com), Tuta (tuta.com); облачный сканер VirusTotal и обновления баз зарубежных антивирусов (Malwarebytes, Avast, AVG, ESET NOD32, Bitdefender, Norton, Avira)."
-    },
+     },
     {
       "id": "tachyon:smarthome_iot",
       "kind": "domains",
@@ -2022,8 +1878,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 54,
-      "description_ru": "[Маршрут: В Прокси / VPN] Облачные сервисы и репозитории умного дома и 3D-принтеров: облако 3D-печати Bambu Lab / MakerWorld (bambulab.com, bblmw.com, makerworld.com — отправка заданий из Bambu Studio и видеопоток камеры через AWS), Creality Cloud, Prusa; экосистема Home Assistant и Nabu Casa (home-assistant.io, nabu.casa, esphome.io, zigbee2mqtt.io); глобальные облака Tuya / Smart Life, eWeLink (Sonoff), Aqara, Roborock, Dreame и Philips Hue."
-    },
+     },
     {
       "id": "tachyon:smarttv_apps",
       "kind": "domains",
@@ -2036,8 +1891,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 51,
-      "description_ru": "[Маршрут: Только в Прокси / VPN (на нужный регион при настройке/активации ТВ)] Серверы проверки геолокации, активации Smart Hub и каталогов приложений телевизоров Samsung Smart TV (Tizen OS: samsungcloudsolution.com, samsungotn.net, samsungqbe.com, samsungosp.com) и LG Smart TV (webOS / LG Content Store: lgappstv.com, lgtvsdp.com, lgtvcommon.com). Незаменимо для разблокировки «серых» телевизоров параллельного импорта."
-    },
+     },
     {
       "id": "tachyon:smart_cars",
       "kind": "domains",
@@ -2050,8 +1904,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 823,
-      "description_ru": "[Маршрут: Напрямую (Direct) или в китайский/целевой прокси] Серверы телематики, OTA-обновлений, мастер-аккаунтов и штатной навигации современных автомобилей: китайские электрокары и гибриды LiXiang / Li Auto (lixiang.com, chj.com), Zeekr (zeekrlife.com, zeekr.com), BYD, Voyah, Geely, Changan, Xiaomi SU7, NIO, XPeng, а также приложения и облака Tesla (tesla.com), BMW (MyBMW / ConnectedDrive) и Mercedes me. Позволяет на роутере в авто не пускать китайскую телематику в европейский VPN во избежание гео-блокировки экранов."
-    },
+     },
     {
       "id": "tachyon:linux_repos",
       "kind": "domains",
@@ -2064,8 +1917,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 50,
-      "description_ru": "[Маршрут: В Прокси / VPN] Пакетные репозитории, магазины приложений Linux и серверные дистрибутивы с региональными ограничениями доступа (Red Hat, Fedora, Canonical Launchpad, Flathub): Flathub / Flatpak (flathub.org), Snapcraft (snapcraft.io), Ubuntu / Launchpad PPA (launchpad.net), Arch Linux & AUR (archlinux.org), Proxmox VE (proxmox.com), Red Hat (redhat.com), Fedora, Debian, Alpine, Kali и NixOS."
-    },
+     },
     {
       "id": "svc_tachyon_cloudflare",
       "kind": "domains",
@@ -2081,8 +1933,7 @@
       "same_as_ip": [
         "tachyon:cloudflare"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Официальные IPv4/IPv6-подсети CDN Cloudflare для маршрутизации ресурсов, использующих TLS ECH (Encrypted Client Hello) и проксирование Cloudflare."
-    },
+     },
     {
       "id": "svc_tachyon_cloudfront",
       "kind": "domains",
@@ -2098,8 +1949,7 @@
       "same_as_ip": [
         "tachyon:cloudfront"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Диапазоны IP-адресов CDN Amazon CloudFront, на которых работают тысячи зарубежных веб-приложений, игровых сервисов и API."
-    },
+     },
     {
       "id": "svc_tachyon_fastly",
       "kind": "domains",
@@ -2115,8 +1965,7 @@
       "same_as_ip": [
         "tachyon:fastly"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены и подсети CDN-провайдера Fastly (fastly.net, fastlylb.net, fsdn.com), используемого Reddit, GitHub, StackOverflow, PyPI и многими западными сервисами."
-    },
+     },
     {
       "id": "svc_tachyon_hetzner",
       "kind": "domains",
@@ -2132,8 +1981,7 @@
       "same_as_ip": [
         "tachyon:hetzner"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Подсети европейских датацентров хостинг-провайдера Hetzner Online (Германия и Финляндия)."
-    },
+     },
     {
       "id": "svc_tachyon_ovh",
       "kind": "domains",
@@ -2149,8 +1997,7 @@
       "same_as_ip": [
         "tachyon:ovh"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Подсети облачного провайдера OVHcloud, на которых размещено множество игровых серверов, веб-проектов и API."
-    },
+     },
     {
       "id": "svc_tachyon_digitalocean",
       "kind": "domains",
@@ -2166,8 +2013,7 @@
       "same_as_ip": [
         "tachyon:digitalocean"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Подсети глобальной облачной инфраструктуры и датацентров DigitalOcean."
-    },
+     },
     {
       "id": "tachyon:speedtest",
       "kind": "domains",
@@ -2180,8 +2026,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 53,
-      "description_ru": "[Маршрут: В Прокси / VPN (для теста скорости и IP туннеля) или Direct] Сервисы замера скорости интернета, проверки внешнего IP-адреса, DNS-утечек и маршрутов: Speedtest (speedtest.net, ookla.com), Fast.com, Cloudflare Speed, 2ip.ru / 2ip.io, Whoer.net, BrowserLeaks, IPLeak, IPinfo, Check-Host и Ping.pe."
-    },
+     },
     {
       "id": "svc_tachyon_doh_dot_dns",
       "kind": "domains",
@@ -2197,8 +2042,7 @@
       "same_as_ip": [
         "tachyon:doh_dot_dns"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN (для туннелирования DoH) или Блокировать (Block — для принудительного использования локального DNS роутера)] Полная база публичных серверов DNS-over-HTTPS (DoH) и DNS-over-TLS (DoT), включая домены и IP-адреса резолверов Cloudflare (1.1.1.1, cloudflare-dns.com), Google (8.8.8.8, dns.google), Quad9 (9.9.9.9, dns.quad9.net), AdGuard DNS, NextDNS, OpenDNS, Control D и Mullvad DNS."
-    },
+     },
     {
       "id": "tachyon:crypto",
       "kind": "domains",
@@ -2211,8 +2055,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 297,
-      "description_ru": "[Маршрут: В Прокси / VPN (на статичный зарубежный IP) или Direct] Все ведущие криптобиржи, DEX, графики, аналитика и кошельки: Binance, Bybit, OKX, Bitget, BingX, KuCoin, Gate.io, HTX, MEXC, Kraken, Coinbase, Uniswap, Jupiter, Polymarket, TradingView, CoinMarketCap, CoinGecko, DeFiLlama, DexScreener, MetaMask, Phantom, Tonkeeper и RPC-ноды (Infura, Alchemy)."
-    },
+     },
     {
       "id": "tachyon:paypal_fintech",
       "kind": "domains",
@@ -2225,8 +2068,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 301,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Зарубежные финансовые сервисы, платёжные шлюзы и брокеры, блокирующие вход с российских IP: PayPal (paypal.com), Wise (wise.com), Revolut (revolut.com), Stripe (stripe.com), Payoneer, Skrill, Neteller, N26, Monzo, Interactive Brokers, Investing.com и Bloomberg."
-    },
+     },
     {
       "id": "tachyon:news",
       "kind": "domains",
@@ -2239,8 +2081,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 184,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Зарубежные и международные новостные агентства, издания и аналитические порталы."
-    },
+     },
     {
       "id": "tachyon:torrent",
       "kind": "domains",
@@ -2253,8 +2094,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 418,
-      "description_ru": "[Маршрут: В Desync / Zapret или Прокси] Торрент-трекеры, индексаторы и публичные анонсеры: RuTracker, Rutor, NNM-Club, Kinozal, Rustorka, Tapochek, LostFilm, The Pirate Bay, 1337x, YTS и Nyaa."
-    },
+     },
     {
       "id": "svc_tachyon_tor",
       "kind": "domains",
@@ -2270,8 +2110,7 @@
       "same_as_ip": [
         "tachyon:tor"
       ],
-      "description_ru": "[Маршрут: В Прокси / VPN] Домены и узлы Tor Project (torproject.org), каталогов мостов, оверлейных сетей I2P, Tails и Whonix."
-    },
+     },
     {
       "id": "tachyon:porn",
       "kind": "domains",
@@ -2284,8 +2123,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 6534,
-      "description_ru": "[Маршрут: В Прокси / VPN или Desync] Крупнейшие сайты категории 18+, видео-CDN и платформы подписок с региональными ограничениями доступа."
-    },
+     },
     {
       "id": "tachyon:travel_booking",
       "kind": "domains",
@@ -2298,8 +2136,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 121,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — геоблок по IP] Международные системы бронирования отелей, жилья и поиска авиабилетов: Booking.com (booking.com, bstatic.com — не показывает объекты размещения при входе с российских IP), Airbnb (airbnb.com, muscache.com — блокирует доступ из РФ и РБ), Agoda, Hostelworld, Expedia, Hotels.com, Trip.com, Skyscanner, Kayak, Momondo, TripAdvisor, а также радар полётов Flightradar24 и MarineTraffic."
-    },
+     },
     {
       "id": "tachyon:shopping_global",
       "kind": "domains",
@@ -2312,8 +2149,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 983,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — региональные ограничения и геоблок] Иностранные интернет-магазины и маркетплейсы: iHerb (iherb.com), Amazon (amazon.com), eBay (ebay.com), маркетплейс Poizon / Dewu (dewu.com, poizon.com), StockX, GOAT, Chrono24, Farfetch, ASOS, Yoox, Net-a-Porter, Nike, Adidas, Uniqlo, Zara и IKEA."
-    },
+     },
     {
       "id": "tachyon:edtech_learning",
       "kind": "domains",
@@ -2326,8 +2162,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 59,
-      "description_ru": "[Маршрут: В Прокси / VPN] Образовательные платформы, языковые сервисы и тренажёры для программистов: Coursera (coursera.org), Udemy (udemy.com), edX, Udacity, Khan Academy, карточки для запоминания слов Quizlet (quizlet.com), Duolingo (duolingo.com), Babbel, Busuu, AnkiWeb, а также алгоритмические и Data Science платформы LeetCode (leetcode.com), Kaggle (kaggle.com), HackerRank, Codewars и freeCodeCamp."
-    },
+     },
     {
       "id": "tachyon:freelance_remote",
       "kind": "domains",
@@ -2340,8 +2175,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 35,
-      "description_ru": "[Маршрут: Только в Прокси / VPN — строгий геоблок по IP] Международные биржи фриланса, контрактов и глобального найма (требуют постоянный не-российский IP): Upwork (upwork.com), Fiverr (fiverr.com), Freelancer.com, Toptal, PeoplePerHour, Guru, 99designs, Behance, Dribbble, а также платформы оформления контрактов и выплат удалённым сотрудникам Deel (deel.com), Remote.com, Oyster HR и Payoneer."
-    },
+     },
     {
       "id": "tachyon:sports_fitness",
       "kind": "domains",
@@ -2354,8 +2188,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 53,
-      "description_ru": "[Маршрут: Только в Прокси / VPN] Спортивные трекеры, умные часы, велостанки и результаты матчей: Strava (strava.com), Garmin Connect (garmin.com, connect.garmin.com), виртуальный велотренажёр Zwift (zwift.com), велонавигатор Komoot, Wahoo, Whoop, MyFitnessPal, результаты матчей Flashscore (flashscore.com), Sofascore, Transfermarkt, F1 TV, UFC Fight Pass, NBA и NHL."
-    },
+     },
     {
       "id": "tachyon:ads_hagezi_pro",
       "kind": "domains",
@@ -2368,8 +2201,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 225433,
-      "description_ru": "[Маршрут: Блокировать (Block)] Сбалансированный список блокировки рекламных сетей, счётчиков аналитики, мобильных баннеров и фишинга (Hagezi Multi PRO)."
-    },
+     },
     {
       "id": "tachyon:android_ads_block",
       "kind": "domains",
@@ -2382,8 +2214,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 5059,
-      "description_ru": "[Маршрут: Блокировать (Block)] Вырезает полноэкранную видеорекламу между уровнями в мобильных играх и баннеры внутри бесплатных приложений на Android (AdAway Official + AdGuard Mobile Ads + все главные рекламные SDK: Google AdMob, Unity Ads, AppLovin MAX, IronSource LevelPlay, Vungle/Liftoff, Mintegral, Chartboost, Pangle, InMobi, AdColony, Tapjoy, Bigo Ads, BidMachine, Яндекс Реклама / Mobile Ads SDK и VK MyTarget)."
-    },
+     },
     {
       "id": "tachyon:win_spy",
       "kind": "domains",
@@ -2396,8 +2227,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 328,
-      "description_ru": "[Маршрут: Блокировать (Block)] Серверы сбора телеметрии, отчётов об ошибках и рекламных идентификаторов Windows 10/11 (vortex.data.microsoft.com, telecommand.telemetry.microsoft.com, settings-win.data.microsoft.com)."
-    },
+     },
     {
       "id": "tachyon:xiaomi_smarttv_ads",
       "kind": "domains",
@@ -2410,8 +2240,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 57,
-      "description_ru": "[Маршрут: Блокировать (Block)] Вырезает встроенную системную рекламу и телеметрию в прошивках Xiaomi / Poco / Redmi (MIUI и HyperOS: api.ad.xiaomi.com, tracking.miui.com, mistat.xiaomi.com), а также рекламные баннеры и ACR-слежку на телевизорах Samsung Smart TV (Tizen) и LG webOS."
-    },
+     },
     {
       "id": "tachyon:gambling_block",
       "kind": "domains",
@@ -2424,8 +2253,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 140128,
-      "description_ru": "[Маршрут: Блокировать (Block)] Полная база онлайн-казино, нелегальных букмекеров, крипто-рулеток, слотов и их тысяч зеркал (Hagezi Gambling Medium + СНГ-казино: 1xBet, Melbet, Mostbet, Pin-Up, Vulkan, Vavada, Joycasino, Azino777, Stake, 1win, DragonMoney, Up-X и др.), агрессивно всплывающих на пиратских киносайтах."
-    },
+     },
     {
       "id": "tachyon:phishing_malware_block",
       "kind": "domains",
@@ -2438,8 +2266,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 188728,
-      "description_ru": "[Маршрут: Блокировать (Block)] Специализированный список блокировки фишинговых копий Steam / Telegram / Госуслуг / банков, телефонных мошенников, крипто-дрейнеров, ботнетов и вредоносных доменов (Hagezi Threat Intelligence Feeds Mini + Fake/Scam). Идеален для тех, кто не хочет включать полный AdBlock, чтобы не ломать реферальные ссылки и кэшбэк-сервисы, но хочет защитить домашнюю сеть от скама и вирусов."
-    },
+     },
     {
       "id": "tachyon:telemetry_mobile_block",
       "kind": "domains",
@@ -2452,8 +2279,7 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 1611,
-      "description_ru": "[Маршрут: Блокировать (Block)] Блокировка встроенной системной телеметрии смартфонов Apple iOS/macOS, Huawei EMUI/HarmonyOS, Realme/OPPO ColorOS, Vivo OriginOS, Amazon FireOS, а также самых навязчивых рекламных и трекинговых мобильных SDK внутри приложений (AppsFlyer, Adjust, Branch.io, Kochava, Singular, AppLovin, Unity Ads, IronSource, Vungle, Mintegral)."
-    },
+     },
     {
       "id": "svc_tachyon_google_meet",
       "kind": "domains",
@@ -2469,8 +2295,7 @@
       "same_as_ip": [
         "tachyon:google_meet"
       ],
-      "description_ru": "Домены и подсети видеозвонков Google Meet."
-    },
+     },
     {
       "id": "tachyon:geosite_ru",
       "kind": "domains",
@@ -2483,7 +2308,6 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 894,
-      "description_ru": "Системная база доменов Рунета для маршрутизации национального трафика."
-    }
+     }
   ]
 }
