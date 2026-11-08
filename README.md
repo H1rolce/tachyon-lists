@@ -1,3 +1,71 @@
+# Tachyon Lists — Unified JSON & Sing-box Rule Sets
+
+> [!IMPORTANT]
+> **Данный репозиторий является форком проекта [Dushnilin/tachyon-lists](https://github.com/Dushnilin/tachyon-lists).**  
+> **Оригинальный автор:** [@Dushnilin](https://github.com/Dushnilin)  
+> В этом форке все 146 категорий списков объединены в **единые файлы JSON** и доступны для прямой загрузки в разделе **[Releases (v1.0.0)](https://github.com/H1rolce/tachyon-lists/releases/tag/v1.0.0)**.
+
+---
+
+## 🚀 Единые файлы JSON (Сборка v1.0.0)
+
+| Файл | Размер | Описание | Прямая ссылка |
+|:---|:---:|:---|:---|
+| **	achyon_unified_ruleset.json** | 48.6 МБ | **Единый Sing-box Rule Set v3** со всеми доменами, суффиксами и CIDR из всех 146 категорий (полная дедупликация) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_unified_ruleset.json) |
+| **	achyon_all_bundle.json** | 54.2 МБ | **Все 146 списков** в виде единого JSON-словаря по идентификаторам ("ai_all", "geoblock", и т.д.) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_all_bundle.json) |
+| **	achyon_by_action.json** | 48.8 МБ | Списки, объединённые по направлениям маршрутизации (proxy, direct, lock) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_by_action.json) |
+| **	achyon_proxy_ruleset.json** | 37.5 МБ | 125 категорий для **Proxy / VPN** (1.6M суффиксов, 265K CIDR) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_proxy_ruleset.json) |
+| **	achyon_direct_ruleset.json** | 0.7 МБ | 11 категорий для **Direct** (GeoSite RU, GeoIP RU, whitelist) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_direct_ruleset.json) |
+| **	achyon_block_ruleset.json** | 10.6 МБ | 10 категорий для **Reject / Block** (HaGeZi реклама, малварь, фишинг) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_block_ruleset.json) |
+
+### Сводная статистика объединённого набора (	achyon_unified_ruleset.json):
+- domain_suffix: **2 098 724**
+- ip_cidr: **344 121**
+- domain: **858**
+- domain_keyword: **117**
+- domain_regex: **157**
+
+### Пример подключения в sing-box (1.11+ / 1.14+):
+``json
+{
+  "route": {
+    "rule_set": [
+      {
+        "tag": "tachyon-block",
+        "type": "remote",
+        "format": "source",
+        "url": "https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_block_ruleset.json",
+        "download_detour": "direct",
+        "update_interval": "24h"
+      },
+      {
+        "tag": "tachyon-direct",
+        "type": "remote",
+        "format": "source",
+        "url": "https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_direct_ruleset.json",
+        "download_detour": "direct",
+        "update_interval": "12h"
+      },
+      {
+        "tag": "tachyon-proxy",
+        "type": "remote",
+        "format": "source",
+        "url": "https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_proxy_ruleset.json",
+        "download_detour": "proxy",
+        "update_interval": "12h"
+      }
+    ],
+    "rules": [
+      { "rule_set": ["tachyon-block"], "action": "reject" },
+      { "rule_set": ["tachyon-direct"], "outbound": "direct" },
+      { "rule_set": ["tachyon-proxy"], "outbound": "proxy" }
+    ]
+  }
+}
+``
+
+---
+
 <p align="center">
   <img src="./assets/readme/hero.svg" width="100%" alt="Tachyon Lists — единый мульти-источниковый компилятор и дедупликатор списков маршрутизации, доменов и подсетей для OpenWrt и sing-box">
 </p>
