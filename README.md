@@ -10,7 +10,32 @@
 ## 🚀 Единые файлы JSON (Сборка v1.0.0)
 
 | Файл | Размер | Описание | Прямая ссылка |
-|:---|:---:|:---|:---|
+|:---|:
+---
+
+## 🛰 Подключение в Zapret Manager / splify2 / steer (lists.json)
+
+В репозиторий добавлен файл-манифест каталога **[lists.json](https://github.com/H1rolce/tachyon-lists/blob/main/lists.json)**, совместимый по формату со спецификацией **splify2-lists** для ядра **steer** и веб-интерфейса **Zapret Manager**.
+
+Каталог объединяет **146 списков** Tachyon (37 категорий IP-подсетей и 139 категорий доменов, с автоматической связкой same_as_ip):
+- Списки подкачиваются и распаковываются через встроенную команду steer srs-read из проверенных .srs бинарных наборов релизов.
+- В веб-интерфейсе Zapret Manager / splify2 каждый сервис отображается удобным пунктом с русским названием и описанием.
+
+### Способ подключения к роутеру:
+
+1. **Через веб-интерфейс splify2:**
+   **Настройки → Общее** → карточка **«Источник списков»** → вставить ссылку:
+   `
+   https://github.com/H1rolce/tachyon-lists/releases/latest/download/lists.json
+   `
+   *(либо прямую raw-ссылку: https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists.json)*
+
+2. **Через SSH (терминал OpenWrt):**
+   `sh
+   uci set splify2.main.manifest_url='https://github.com/H1rolce/tachyon-lists/releases/latest/download/lists.json'
+   uci commit splify2
+   `
+---:|:---|:---|
 | **tachyon_unified_ruleset.json** | 48.6 МБ | **Единый Sing-box Rule Set v3** со всеми доменами, суффиксами и CIDR из всех 146 категорий (полная дедупликация) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_unified_ruleset.json) |
 | **tachyon_all_bundle.json** | 54.2 МБ | **Все 146 списков** в виде единого JSON-словаря по идентификаторам ("ai_all", "geoblock", и т.д.) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_all_bundle.json) |
 | **tachyon_by_action.json** | 48.8 МБ | Списки, объединённые по направлениям маршрутизации (proxy, direct, lock) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_by_action.json) |
