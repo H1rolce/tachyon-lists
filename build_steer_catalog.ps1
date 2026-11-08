@@ -5,7 +5,7 @@ using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 
-public class SteerCatalogBuilder
+public class SteerCatalogBuilderV2
 {
     public class CatEntry
     {
@@ -42,16 +42,13 @@ public class SteerCatalogBuilder
     {
         if (string.IsNullOrWhiteSpace(rawTitle))
             return id;
-
-        // Try extracting before " — " or " - "
         var m = Regex.Match(rawTitle, @"^(.*?)\s+[-—]\s+(.*)$");
         if (m.Success)
         {
             var shortName = m.Groups[1].Value.Trim();
-            if (shortName.Length > 0 && shortName.Length < 40)
+            if (shortName.Length > 0 && shortName.Length < 50)
                 return shortName;
         }
-
         return rawTitle;
     }
 
@@ -67,7 +64,8 @@ public class SteerCatalogBuilder
         var prefix = "tachyon";
         var sourceRepo = "Dushnilin/tachyon-lists";
         var sourceTitle = "Tachyon Lists";
-        var tag = "latest";
+        // Use raw.githubusercontent for srs files - much more reliable than release download URLs
+        var srsBaseUrl = "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box";
 
         if (root.TryGetProperty("lists", out var listsElem) && listsElem.ValueKind == JsonValueKind.Array)
         {
@@ -95,7 +93,8 @@ public class SteerCatalogBuilder
                 bool hasCidr = cidrCount > 0;
 
                 var cleanName = CleanName(title, id);
-                var srsUrl = $"https://github.com/{sourceRepo}/releases/download/{tag}/{id}.srs";
+                // Use raw.githubusercontent URL - no redirect, works directly
+                var srsUrl = $"{srsBaseUrl}/{id}.srs";
 
                 var catId = $"{prefix}:{id}";
 
@@ -108,7 +107,7 @@ public class SteerCatalogBuilder
                         file = $"{prefix}/{id}.srs.lst",
                         format = "srs",
                         url = srsUrl,
-                        tag = tag,
+                        tag = "main",
                         source = sourceRepo,
                         source_name = sourceTitle,
                         default_on = false,
@@ -127,7 +126,7 @@ public class SteerCatalogBuilder
                         file = $"{prefix}/domains/{id}.srs.lst",
                         format = "srs",
                         url = srsUrl,
-                        tag = tag,
+                        tag = "main",
                         source = sourceRepo,
                         source_name = sourceTitle,
                         default_on = false,
@@ -165,13 +164,13 @@ public class SteerCatalogBuilder
         var outputBytes = JsonSerializer.SerializeToUtf8Bytes(manifest, options);
         File.WriteAllBytes(outputPath, outputBytes);
 
-        Console.WriteLine($"Generated {outputPath}:");
+        Console.WriteLine($"Generated {outputPath}");
         Console.WriteLine($"  Categories (subnets): {categories.Count}");
         Console.WriteLine($"  Domain lists: {domainLists.Count}");
         Console.WriteLine($"  File size: {new FileInfo(outputPath).Length / 1024} KB");
+        Console.WriteLine($"  SRS base URL: {srsBaseUrl}");
     }
 }
 "@
-
 Add-Type -TypeDefinition $csharp -Language CSharp
-[SteerCatalogBuilder]::Build((Join-Path $PWD "catalog.json"), (Join-Path $PWD "lists.json"), "H1rolce")
+[SteerCatalogBuilderV2]::Build("catalog.json", "lists.json", "H1rolce")
