@@ -62,8 +62,7 @@
     ]
   }
 }
-``
-
+```n
 ---
 
 <p align="center">
@@ -488,8 +487,7 @@ python3 build_lists.py --only ru_whitelist geoblock ai_all         # Выбор�
 - **Bitcoin (BTC):** `bc1q9ehdv7y9g948jejyflkq7xmau3tytgunxgh35h`
 - **Ethereum (ETH / ERC-20):** `0x6CB7a4547eD62EF64990D5C6B5D9fdA58EB223E6`
 - **TON:** `UQDPhLRjMz5KltDLACAT3YXXHDVEtIDOHky2i33ZIOtsMEoR`
-- **Solana (SOL):** `3csTGaNeU9KjhCKHEKAU3XLS5UfVjEeBVhXihpsETZwh`
-
+- **Solana (SOL):** `3csTGaNeU9KjhCKHEKAU3XLS5UfVjEeBVhXihpsETZwh``n
 ---
 
 ## Правовая информация и отказ от ответственности
