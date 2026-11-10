@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Собирает lists.json — каталог списков Tachyon Lists для ядра steer (splify2 / Zapret Manager).
+"""Собирает lists.json — каталог списков Tachyon Lists для steer в zapret manager или splify2.
 
 Берёт актуальный индекс категорий из репозитория Dushnilin/tachyon-lists (release/catalog.json)
 и формирует манифест lists.json со ссылками на скомпилированные наборы .srs.
