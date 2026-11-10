@@ -58,5 +58,5 @@ jobs:
           else
             gh release create lists lists.json \
               --title "Каталог списков $ver" \
-              --notes "Единственный файл этого релиза — lists.json: перечень списков Tachyon Lists для steer / splify2 (Zapret Manager). Ссылка для роутера: https://github.com/${{ github.repository }}/releases/latest/download/lists.json"
+              --notes "Единственный файл этого релиза — lists.json: перечень списков Tachyon Lists для steer в zapret manager или splify2. Ссылка для роутера: https://github.com/${{ github.repository }}/releases/latest/download/lists.json"
           fi
