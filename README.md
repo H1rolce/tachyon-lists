@@ -2,7 +2,7 @@
 
 # tachyon-lists
 
-**Каталог списков доменов и подсетей [Tachyon Lists](https://github.com/Dushnilin/tachyon-lists) для `steer` / `splify2` в Zapret Manager**
+**Каталог списков доменов и подсетей [Tachyon Lists](https://github.com/Dushnilin/tachyon-lists) для steer в zapret manager или splify2**
 
 </div>
 
@@ -12,15 +12,15 @@
 > **Автор исходных списков и компилятора:** [@Dushnilin](https://github.com/Dushnilin)  
 > **Первоисточник:** [github.com/Dushnilin/tachyon-lists](https://github.com/Dushnilin/tachyon-lists)
 
-Каталог списков одним файлом [`lists.json`](./lists.json) для подключения всех **146 категорий** проекта **Tachyon Lists** (37 списков IP-подсетей и 139 списков доменов) в `steer` / `splify2` (в том числе в панели **Zapret Manager** на OpenWrt).
+Каталог списков одним файлом [`lists.json`](./lists.json) для подключения всех **146 категорий** проекта **Tachyon Lists** (37 списков IP-подсетей и 139 списков доменов) для steer в zapret manager или splify2.
 
-Роутер скачивает **только** `lists.json`, в котором перечислены все доступные категории, их русские названия и ссылки на скомпилированные наборы `.srs` из основного репозитория `Dushnilin/tachyon-lists`. При включении нужного сервиса ядро `steer` автоматически скачивает и раскладывает набор на домены и подсети (`steer srs-read`).
+Роутер скачивает **только** `lists.json`, в котором перечислены все доступные категории, их русские названия и ссылки на скомпилированные наборы `.srs` из основного репозитория `Dushnilin/tachyon-lists`. При включении нужного сервиса steer в zapret manager или splify2 автоматически скачивает и раскрывает набор на домены и подсети.
 
 ---
 
 ## Подключить к своему роутеру
 
-В **splify2 / Zapret Manager**: **Настройки → Общее**, карточка **«Источник списков»**, вставить ссылку:
+В **zapret manager** или **splify2**: **Настройки → Общее**, карточка **«Источник списков»**, вставить ссылку:
 
 ```text
 https://github.com/H1rolce/tachyon-lists/releases/latest/download/lists.json
@@ -60,4 +60,4 @@ python3 build.py
 ## Первоисточники и благодарности
 
 * **[Dushnilin/tachyon-lists](https://github.com/Dushnilin/tachyon-lists)** — автор и компилятор списков маршрутизации.
-* **[splify2/splify2-lists](https://github.com/splify2/splify2-lists)** — спецификация формата каталога `lists.json` для `steer`.
+* **[splify2/splify2-lists](https://github.com/splify2/splify2-lists)** — спецификация формата каталога `lists.json` для steer в zapret manager или splify2.
