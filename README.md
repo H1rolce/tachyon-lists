@@ -1,6 +1,6 @@
 <div align="center">
 
-# tachyon-lists (`lists.json`)
+# tachyon-lists
 
 **Каталог списков доменов и подсетей [Tachyon Lists](https://github.com/Dushnilin/tachyon-lists) для `steer` / `splify2` в Zapret Manager**
 
@@ -12,28 +12,26 @@
 > **Автор исходных списков и компилятора:** [@Dushnilin](https://github.com/Dushnilin)  
 > **Первоисточник:** [github.com/Dushnilin/tachyon-lists](https://github.com/Dushnilin/tachyon-lists)
 
-Единый манифест [`lists.json`](./lists.json) для подключения всех **146 категорий** проекта **Tachyon Lists** (37 списков IP-подсетей и 139 списков доменов) в качестве каталога списков `steer` / `splify2` (в том числе в панели **Zapret Manager** на OpenWrt).
+Каталог списков одним файлом [`lists.json`](./lists.json) для подключения всех **146 категорий** проекта **Tachyon Lists** (37 списков IP-подсетей и 139 списков доменов) в `steer` / `splify2` (в том числе в панели **Zapret Manager** на OpenWrt).
 
-Роутер скачивает только компактный `lists.json`, в котором перечислены все категории, их русские названия и ссылки на бинарные наборы `.srs` из основного репозитория `Dushnilin/tachyon-lists`. При включении нужного сервиса ядро `steer` автоматически скачивает и распаковывает выбранный набор (`steer srs-read`).
+Роутер скачивает **только** `lists.json`, в котором перечислены все доступные категории, их русские названия и ссылки на скомпилированные наборы `.srs` из основного репозитория `Dushnilin/tachyon-lists`. При включении нужного сервиса ядро `steer` автоматически скачивает и раскладывает набор на домены и подсети (`steer srs-read`).
 
 ---
 
-## Подключение к роутеру
+## Подключить к своему роутеру
 
-### 1. Через веб-интерфейс (Zapret Manager / splify2)
-
-В разделе **Настройки → Общее**, карточка **«Источник списков»**, укажите ссылку:
+В **splify2 / Zapret Manager**: **Настройки → Общее**, карточка **«Источник списков»**, вставить ссылку:
 
 ```text
-https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists.json
+https://github.com/H1rolce/tachyon-lists/releases/latest/download/lists.json
 ```
 
-*(или ссылку на релиз: `https://github.com/H1rolce/tachyon-lists/releases/latest/download/lists.json`)*
+*(или прямую raw-ссылку: `https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists.json`)*
 
-### 2. Через SSH (OpenWrt UCI)
+Это же значение можно задать по SSH:
 
 ```sh
-uci set splify2.main.manifest_url='https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists.json'
+uci set splify2.main.manifest_url='https://github.com/H1rolce/tachyon-lists/releases/latest/download/lists.json'
 uci commit splify2
 ```
 
@@ -47,22 +45,11 @@ uci commit splify2
 
 ---
 
-## Списки для `sing-box` (Forkozz / NetShift)
-
-Помимо каталога `lists.json` для `steer`, в разделе **[Releases (v1.0.0)](https://github.com/H1rolce/tachyon-lists/releases/tag/v1.0.0)** доступны готовые объединённые JSON-наборы правил (`Sing-box Rule Set v3`):
-
-| Файл | Назначение | Прямая ссылка |
-|:---|:---|:---|
-| **`tachyon_proxy_ruleset.json`** | 125 категорий для маршрутизации в **Proxy / VPN** | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_proxy_ruleset.json) |
-| **`tachyon_direct_ruleset.json`** | 11 категорий прямого доступа (**Direct** / RU) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_direct_ruleset.json) |
-| **`tachyon_block_ruleset.json`** | 10 категорий блокировки рекламы и угроз (**Block**) | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_block_ruleset.json) |
-| **`tachyon_unified_ruleset.json`** | Все 146 категорий в одном дедуплицированном Rule Set | [Скачать](https://github.com/H1rolce/tachyon-lists/releases/download/v1.0.0/tachyon_unified_ruleset.json) |
-
----
-
 ## Автоматическое обновление
 
-Манифест `lists.json` автоматически синхронизируется с индексом [`Dushnilin/tachyon-lists`](https://github.com/Dushnilin/tachyon-lists) раз в сутки через GitHub Actions (`.github/workflows/lists.yml`). Для ручной пересборки:
+Сборка запускается раз в сутки автоматически (`.github/workflows/lists.yml`) и обновляет `lists.json` и релиз только в том случае, если состав списков в источнике изменился.
+
+Проверить или пересобрать локально (без внешних зависимостей, только Python 3.8+):
 
 ```sh
 python3 build.py
