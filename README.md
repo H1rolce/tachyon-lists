@@ -2,7 +2,7 @@
 
 # tachyon-lists
 
-**Каталог списков доменов и подсетей [Tachyon Lists](https://github.com/Dushnilin/tachyon-lists) для steer в zapret manager или splify2**
+**Каталог списков доменов и подсетей [Tachyon Lists](https://github.com/Dushnilin/tachyon-lists) для zapret manager или splify2**
 
 </div>
 
@@ -14,7 +14,7 @@
 
 Каталог списков одним файлом [`lists.json`](./lists.json) для подключения всех **146 категорий** проекта **Tachyon Lists** (37 списков IP-подсетей и 139 списков доменов) для steer в zapret manager или splify2.
 
-Роутер скачивает **только** `lists.json`, в котором перечислены все доступные категории, их русские названия и ссылки на скомпилированные наборы `.srs` из основного репозитория `Dushnilin/tachyon-lists`. При включении нужного сервиса steer в zapret manager или splify2 автоматически скачивает и раскрывает набор на домены и подсети.
+Роутер скачивает **только** `lists.json`, в котором перечислены все доступные категории, их русские названия и ссылки на скомпилированные наборы `.srs` из основного репозитория `Dushnilin/tachyon-lists`. При включении нужного сервиса в zapret manager или splify2 автоматически скачивает и раскрывает набор на домены и подсети.
 
 ---
 
@@ -60,4 +60,4 @@ python3 build.py
 ## Первоисточники и благодарности
 
 * **[Dushnilin/tachyon-lists](https://github.com/Dushnilin/tachyon-lists)** — автор и компилятор списков маршрутизации.
-* **[splify2/splify2-lists](https://github.com/splify2/splify2-lists)** — спецификация формата каталога `lists.json` для steer в zapret manager или splify2.
+* **[splify2/splify2-lists](https://github.com/splify2/splify2-lists)** — спецификация формата каталога `lists.json` для zapret manager или splify2.
