@@ -12,7 +12,7 @@
 > **Автор исходных списков и компилятора:** [@Dushnilin](https://github.com/Dushnilin)  
 > **Первоисточник:** [github.com/Dushnilin/tachyon-lists](https://github.com/Dushnilin/tachyon-lists)
 
-Каталог списков одним файлом [`lists.json`](./lists.json) для подключения всех **146 категорий** проекта **Tachyon Lists** (37 списков IP-подсетей и 139 списков доменов) для steer в zapret manager или splify2.
+Каталог списков одним файлом [`lists.json`](./lists.json) для подключения всех **146 категорий** проекта **Tachyon Lists** (37 списков IP-подсетей и 139 списков доменов) для zapret manager или splify2.
 
 Роутер скачивает **только** `lists.json`, в котором перечислены все доступные категории, их русские названия и ссылки на скомпилированные наборы `.srs` из основного репозитория `Dushnilin/tachyon-lists`. При включении нужного сервиса в zapret manager или splify2 автоматически скачивает и раскрывает набор на домены и подсети.
 
