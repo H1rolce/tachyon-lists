@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-11_10-59",
-  "generated_at": "2026-11-11T10:59:13Z",
+  "version": "2026-11-12_11-13",
+  "generated_at": "2026-11-12T11:13:37Z",
   "base_url": "https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists",
   "categories": [
     {
@@ -478,7 +478,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1601463,
+      "count": 1602203,
       "same_as_ip": [
         "tachyon:ru_blocked_all"
       ]
@@ -2038,7 +2038,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 3554,
+      "count": 3551,
       "same_as_ip": [
         "tachyon:doh_dot_dns"
       ]
@@ -2200,7 +2200,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 223201
+      "count": 223921
     },
     {
       "id": "tachyon:android_ads_block",
@@ -2213,7 +2213,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 5059
+      "count": 5060
     },
     {
       "id": "tachyon:win_spy",
@@ -2252,7 +2252,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 90564
+      "count": 93236
     },
     {
       "id": "tachyon:phishing_malware_block",
@@ -2265,7 +2265,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 185866
+      "count": 185742
     },
     {
       "id": "tachyon:telemetry_mobile_block",
