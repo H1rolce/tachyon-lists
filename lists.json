@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-15_10-55",
-  "generated_at": "2026-11-15T10:55:19Z",
+  "version": "2026-11-16_11-20",
+  "generated_at": "2026-11-16T11:20:55Z",
   "base_url": "https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists",
   "categories": [
     {
@@ -152,17 +152,6 @@
       "file": "tachyon/games_all.srs.lst",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/games_all.srs",
-      "tag": "main",
-      "source": "Dushnilin/tachyon-lists",
-      "source_name": "Tachyon Lists",
-      "default_on": false
-    },
-    {
-      "id": "tachyon:epicgames",
-      "name_ru": "Epic Games",
-      "file": "tachyon/epicgames.srs.lst",
-      "format": "srs",
-      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/epicgames.srs",
       "tag": "main",
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
@@ -335,7 +324,7 @@
     },
     {
       "id": "tachyon:et_spamhaus_block",
-      "name_ru": "Emerging Threats, Spamhaus DROP и Feodo C2 (Block) — базовая IP-защита от ботнетов и угона подсетей",
+      "name_ru": "Emerging Threats, Spamhaus DROP и FireHOL Level 2 (Block) — базовая IP-защита от ботнетов и угона подсетей",
       "file": "tachyon/et_spamhaus_block.srs.lst",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/et_spamhaus_block.srs",
@@ -423,7 +412,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 73286
+      "count": 73966
     },
     {
       "id": "tachyon:geoblock",
@@ -436,7 +425,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 968
+      "count": 1747
     },
     {
       "id": "tachyon:block",
@@ -449,7 +438,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 331
+      "count": 997
     },
     {
       "id": "svc_tachyon_ru_blocked",
@@ -462,7 +451,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 73607,
+      "count": 73590,
       "same_as_ip": [
         "tachyon:ru_blocked"
       ]
@@ -478,7 +467,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1616573,
+      "count": 1616259,
       "same_as_ip": [
         "tachyon:ru_blocked_all"
       ]
@@ -494,7 +483,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 421,
+      "count": 418,
       "same_as_ip": [
         "tachyon:antifilter"
       ]
@@ -510,7 +499,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 73528,
+      "count": 73512,
       "same_as_ip": [
         "tachyon:refilter"
       ]
@@ -526,7 +515,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 176
+      "count": 170
     },
     {
       "id": "tachyon:ukraine_inside",
@@ -539,7 +528,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1858
+      "count": 1170
     },
     {
       "id": "tachyon:belarus_inside",
@@ -565,7 +554,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 456,
+      "count": 432,
       "same_as_ip": [
         "tachyon:ru_whitelist"
       ]
@@ -581,7 +570,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 896,
+      "count": 860,
       "same_as_ip": [
         "tachyon:ru_domains"
       ]
@@ -597,7 +586,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 170
+      "count": 178
     },
     {
       "id": "tachyon:push",
@@ -649,7 +638,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 354
+      "count": 438
     },
     {
       "id": "tachyon:openai",
@@ -662,7 +651,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 24
+      "count": 20
     },
     {
       "id": "tachyon:anthropic",
@@ -675,7 +664,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 21
+      "count": 20
     },
     {
       "id": "tachyon:google_ai",
@@ -688,7 +677,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 58
+      "count": 56
     },
     {
       "id": "tachyon:xai",
@@ -714,7 +703,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 31
+      "count": 32
     },
     {
       "id": "tachyon:cursor",
@@ -727,7 +716,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 68
+      "count": 70
     },
     {
       "id": "tachyon:perplexity",
@@ -753,12 +742,12 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 15
+      "count": 13
     },
     {
       "id": "tachyon:deepseek",
       "kind": "domains",
-      "name_ru": "DeepSeek, Kimi, Qwen и Manus",
+      "name_ru": "DeepSeek и Manus",
       "file": "tachyon/domains/deepseek.srs.lst",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/deepseek.srs",
@@ -766,7 +755,33 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 12
+      "count": 7
+    },
+    {
+      "id": "tachyon:qwen",
+      "kind": "domains",
+      "name_ru": "Qwen (Alibaba Cloud)",
+      "file": "tachyon/domains/qwen.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/qwen.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false,
+      "count": 5
+    },
+    {
+      "id": "tachyon:kimi",
+      "kind": "domains",
+      "name_ru": "Kimi (Moonshot AI)",
+      "file": "tachyon/domains/kimi.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/kimi.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false,
+      "count": 4
     },
     {
       "id": "tachyon:midjourney",
@@ -792,7 +807,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 46
+      "count": 45
     },
     {
       "id": "tachyon:huggingface",
@@ -844,7 +859,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 182
+      "count": 181
     },
     {
       "id": "tachyon:twitch",
@@ -871,6 +886,19 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 5
+    },
+    {
+      "id": "tachyon:kick",
+      "kind": "domains",
+      "name_ru": "Kick",
+      "file": "tachyon/domains/kick.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/kick.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false,
+      "count": 2
     },
     {
       "id": "tachyon:spotify",
@@ -912,7 +940,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 53
+      "count": 49
     },
     {
       "id": "tachyon:hdrezka",
@@ -925,7 +953,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 17
+      "count": 24
     },
     {
       "id": "tachyon:anime",
@@ -938,7 +966,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 42
+      "count": 48
     },
     {
       "id": "tachyon:pinterest",
@@ -990,7 +1018,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 50
+      "count": 49
     },
     {
       "id": "tachyon:youtube_images",
@@ -1100,7 +1128,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 555,
+      "count": 487,
       "same_as_ip": [
         "tachyon:meta"
       ]
@@ -1116,7 +1144,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 24,
+      "count": 26,
       "same_as_ip": [
         "tachyon:twitter"
       ]
@@ -1132,7 +1160,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 12
+      "count": 9
     },
     {
       "id": "tachyon:messengers",
@@ -1145,7 +1173,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 29
+      "count": 31
     },
     {
       "id": "tachyon:reddit",
@@ -1171,7 +1199,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 37,
+      "count": 53,
       "same_as_ip": [
         "tachyon:zoom_teams"
       ]
@@ -1187,7 +1215,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 22
+      "count": 20
     },
     {
       "id": "svc_tachyon_discord_voice",
@@ -1216,7 +1244,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1355,
+      "count": 1441,
       "same_as_ip": [
         "tachyon:games_all"
       ]
@@ -1235,7 +1263,7 @@
       "count": 60
     },
     {
-      "id": "svc_tachyon_epicgames",
+      "id": "tachyon:epicgames",
       "kind": "domains",
       "name_ru": "Epic Games",
       "file": "tachyon/domains/epicgames.srs.lst",
@@ -1245,10 +1273,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 34,
-      "same_as_ip": [
-        "tachyon:epicgames"
-      ]
+      "count": 34
     },
     {
       "id": "tachyon:ubisoft",
@@ -1261,7 +1286,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 58
+      "count": 57
     },
     {
       "id": "tachyon:warthunder",
@@ -1287,7 +1312,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 70
+      "count": 69
     },
     {
       "id": "svc_tachyon_callofduty",
@@ -1300,7 +1325,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 77,
+      "count": 76,
       "same_as_ip": [
         "tachyon:callofduty"
       ]
@@ -1397,7 +1422,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 16
+      "count": 15
     },
     {
       "id": "tachyon:hoyoverse",
@@ -1410,7 +1435,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 45
+      "count": 44
     },
     {
       "id": "tachyon:minecraft",
@@ -1481,7 +1506,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 24
+      "count": 23
     },
     {
       "id": "tachyon:escapefromtarkov",
@@ -1536,7 +1561,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 8,
+      "count": 9,
       "same_as_ip": [
         "tachyon:cs2_dota2"
       ]
@@ -1565,7 +1590,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 40
+      "count": 41
     },
     {
       "id": "tachyon:netease_tencent_games",
@@ -1578,7 +1603,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 147
+      "count": 148
     },
     {
       "id": "tachyon:japanese_publishers",
@@ -1669,7 +1694,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1590
+      "count": 1589
     },
     {
       "id": "tachyon:microsoft",
@@ -1682,7 +1707,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 646
+      "count": 639
     },
     {
       "id": "tachyon:google_play",
@@ -1695,7 +1720,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 32
+      "count": 27
     },
     {
       "id": "tachyon:github",
@@ -1734,7 +1759,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 249
+      "count": 135
     },
     {
       "id": "tachyon:jetbrains",
@@ -1773,7 +1798,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 179
+      "count": 177
     },
     {
       "id": "tachyon:pkg_registries",
@@ -1786,7 +1811,20 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 65
+      "count": 64
+    },
+    {
+      "id": "tachyon:paas_db",
+      "kind": "domains",
+      "name_ru": "PaaS, хостинг-платформы и облачные БД",
+      "file": "tachyon/domains/paas_db.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/paas_db.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false,
+      "count": 71
     },
     {
       "id": "tachyon:google_services",
@@ -1799,7 +1837,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 838
+      "count": 618
     },
     {
       "id": "tachyon:captcha_auth",
@@ -1825,7 +1863,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 97
+      "count": 96
     },
     {
       "id": "tachyon:cloud_storage",
@@ -1838,7 +1876,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 99
+      "count": 96
     },
     {
       "id": "tachyon:gamedev_3d",
@@ -1890,7 +1928,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 51
+      "count": 47
     },
     {
       "id": "tachyon:smart_cars",
@@ -1903,7 +1941,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 823
+      "count": 822
     },
     {
       "id": "tachyon:linux_repos",
@@ -1916,39 +1954,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 50
-    },
-    {
-      "id": "svc_tachyon_cloudflare",
-      "kind": "domains",
-      "name_ru": "Cloudflare",
-      "file": "tachyon/domains/cloudflare.srs.lst",
-      "format": "srs",
-      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/cloudflare.srs",
-      "tag": "main",
-      "source": "Dushnilin/tachyon-lists",
-      "source_name": "Tachyon Lists",
-      "default_on": false,
-      "count": 4,
-      "same_as_ip": [
-        "tachyon:cloudflare"
-      ]
-    },
-    {
-      "id": "svc_tachyon_cloudfront",
-      "kind": "domains",
-      "name_ru": "Amazon CloudFront",
-      "file": "tachyon/domains/cloudfront.srs.lst",
-      "format": "srs",
-      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/cloudfront.srs",
-      "tag": "main",
-      "source": "Dushnilin/tachyon-lists",
-      "source_name": "Tachyon Lists",
-      "default_on": false,
-      "count": 1,
-      "same_as_ip": [
-        "tachyon:cloudfront"
-      ]
+      "count": 49
     },
     {
       "id": "svc_tachyon_fastly",
@@ -1967,54 +1973,6 @@
       ]
     },
     {
-      "id": "svc_tachyon_hetzner",
-      "kind": "domains",
-      "name_ru": "Hetzner",
-      "file": "tachyon/domains/hetzner.srs.lst",
-      "format": "srs",
-      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/hetzner.srs",
-      "tag": "main",
-      "source": "Dushnilin/tachyon-lists",
-      "source_name": "Tachyon Lists",
-      "default_on": false,
-      "count": 1,
-      "same_as_ip": [
-        "tachyon:hetzner"
-      ]
-    },
-    {
-      "id": "svc_tachyon_ovh",
-      "kind": "domains",
-      "name_ru": "OVHcloud",
-      "file": "tachyon/domains/ovh.srs.lst",
-      "format": "srs",
-      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/ovh.srs",
-      "tag": "main",
-      "source": "Dushnilin/tachyon-lists",
-      "source_name": "Tachyon Lists",
-      "default_on": false,
-      "count": 1,
-      "same_as_ip": [
-        "tachyon:ovh"
-      ]
-    },
-    {
-      "id": "svc_tachyon_digitalocean",
-      "kind": "domains",
-      "name_ru": "DigitalOcean",
-      "file": "tachyon/domains/digitalocean.srs.lst",
-      "format": "srs",
-      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/digitalocean.srs",
-      "tag": "main",
-      "source": "Dushnilin/tachyon-lists",
-      "source_name": "Tachyon Lists",
-      "default_on": false,
-      "count": 1,
-      "same_as_ip": [
-        "tachyon:digitalocean"
-      ]
-    },
-    {
       "id": "tachyon:speedtest",
       "kind": "domains",
       "name_ru": "Speedtest и проверка IP",
@@ -2025,7 +1983,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 53
+      "count": 50
     },
     {
       "id": "svc_tachyon_doh_dot_dns",
@@ -2038,7 +1996,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 3559,
+      "count": 3549,
       "same_as_ip": [
         "tachyon:doh_dot_dns"
       ]
@@ -2054,7 +2012,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 297
+      "count": 294
     },
     {
       "id": "tachyon:paypal_fintech",
@@ -2080,7 +2038,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 184
+      "count": 304
     },
     {
       "id": "tachyon:torrent",
@@ -2106,7 +2064,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 3,
+      "count": 13,
       "same_as_ip": [
         "tachyon:tor"
       ]
@@ -2122,7 +2080,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 6534
+      "count": 6518
     },
     {
       "id": "tachyon:travel_booking",
@@ -2148,7 +2106,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 983
+      "count": 981
     },
     {
       "id": "tachyon:edtech_learning",
@@ -2200,7 +2158,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 226711
+      "count": 238058
     },
     {
       "id": "tachyon:android_ads_block",
@@ -2213,7 +2171,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 5060
+      "count": 41239
     },
     {
       "id": "tachyon:win_spy",
@@ -2252,7 +2210,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 93791
+      "count": 96888
     },
     {
       "id": "tachyon:phishing_malware_block",
@@ -2265,7 +2223,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 185866
+      "count": 182705
     },
     {
       "id": "tachyon:telemetry_mobile_block",
@@ -2278,7 +2236,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1727
+      "count": 1726
     },
     {
       "id": "svc_tachyon_google_meet",
@@ -2291,7 +2249,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 4,
+      "count": 6,
       "same_as_ip": [
         "tachyon:google_meet"
       ]
@@ -2307,7 +2265,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 896
+      "count": 860
     }
   ]
 }
