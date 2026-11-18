@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-17_11-53",
-  "generated_at": "2026-11-17T11:53:21Z",
+  "version": "2026-11-18_11-44",
+  "generated_at": "2026-11-18T11:44:04Z",
   "base_url": "https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists",
   "categories": [
     {
@@ -528,7 +528,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1170
+      "count": 1169
     },
     {
       "id": "tachyon:belarus_inside",
@@ -638,7 +638,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 438
+      "count": 439
     },
     {
       "id": "tachyon:openai",
@@ -807,7 +807,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 45
+      "count": 46
     },
     {
       "id": "tachyon:huggingface",
@@ -1996,7 +1996,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 3549,
+      "count": 3552,
       "same_as_ip": [
         "tachyon:doh_dot_dns"
       ]
@@ -2158,7 +2158,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 238058
+      "count": 252036
     },
     {
       "id": "tachyon:android_ads_block",
@@ -2210,7 +2210,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 97669
+      "count": 99536
     },
     {
       "id": "tachyon:phishing_malware_block",
@@ -2223,7 +2223,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 182808
+      "count": 189842
     },
     {
       "id": "tachyon:telemetry_mobile_block",
@@ -2265,7 +2265,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 860
+      "count": 859
     }
   ]
 }
