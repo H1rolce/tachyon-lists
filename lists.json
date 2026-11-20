@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-19_11-41",
-  "generated_at": "2026-11-19T11:41:15Z",
+  "version": "2026-11-20_11-41",
+  "generated_at": "2026-11-20T11:41:25Z",
   "base_url": "https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists",
   "categories": [
     {
@@ -425,7 +425,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1747
+      "count": 1194
     },
     {
       "id": "tachyon:block",
@@ -1837,7 +1837,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 618
+      "count": 832
     },
     {
       "id": "tachyon:captcha_auth",
@@ -2051,7 +2051,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 418
+      "count": 421
     },
     {
       "id": "svc_tachyon_tor",
@@ -2158,7 +2158,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 252036
+      "count": 229283
     },
     {
       "id": "tachyon:android_ads_block",
@@ -2210,7 +2210,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 102940
+      "count": 104059
     },
     {
       "id": "tachyon:phishing_malware_block",
@@ -2223,7 +2223,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 181620
+      "count": 210332
     },
     {
       "id": "tachyon:telemetry_mobile_block",
