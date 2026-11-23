@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-22_11-27",
-  "generated_at": "2026-11-22T11:27:06Z",
+  "version": "2026-11-23_12-44",
+  "generated_at": "2026-11-23T12:44:41Z",
   "base_url": "https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists",
   "categories": [
     {
@@ -1996,7 +1996,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 3552,
+      "count": 3543,
       "same_as_ip": [
         "tachyon:doh_dot_dns"
       ]
@@ -2158,7 +2158,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 229283
+      "count": 246350
     },
     {
       "id": "tachyon:android_ads_block",
@@ -2210,7 +2210,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 110908
+      "count": 76254
     },
     {
       "id": "tachyon:phishing_malware_block",
@@ -2223,7 +2223,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 245026
+      "count": 192696
     },
     {
       "id": "tachyon:telemetry_mobile_block",
