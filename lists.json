@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-24_13-44",
-  "generated_at": "2026-11-24T13:44:25Z",
+  "version": "2026-11-25_12-57",
+  "generated_at": "2026-11-25T12:57:26Z",
   "base_url": "https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists",
   "categories": [
     {
@@ -467,7 +467,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1635573,
+      "count": 1639302,
       "same_as_ip": [
         "tachyon:ru_blocked_all"
       ]
@@ -1889,7 +1889,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 609
+      "count": 610
     },
     {
       "id": "tachyon:security_passwords",
@@ -1954,7 +1954,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 49
+      "count": 50
     },
     {
       "id": "svc_tachyon_fastly",
@@ -1967,7 +1967,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 7,
+      "count": 9,
       "same_as_ip": [
         "tachyon:fastly"
       ]
@@ -1996,7 +1996,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 3543,
+      "count": 3549,
       "same_as_ip": [
         "tachyon:doh_dot_dns"
       ]
@@ -2158,7 +2158,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 236071
+      "count": 245998
     },
     {
       "id": "tachyon:android_ads_block",
@@ -2210,7 +2210,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 74960
+      "count": 74947
     },
     {
       "id": "tachyon:phishing_malware_block",
@@ -2223,7 +2223,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 144529
+      "count": 134750
     },
     {
       "id": "tachyon:telemetry_mobile_block",
