@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-25_12-57",
-  "generated_at": "2026-11-25T12:57:26Z",
+  "version": "2026-11-26_12-36",
+  "generated_at": "2026-11-26T12:36:44Z",
   "base_url": "https://raw.githubusercontent.com/H1rolce/tachyon-lists/main/lists",
   "categories": [
     {
@@ -180,6 +180,17 @@
       "default_on": false
     },
     {
+      "id": "tachyon:playstation",
+      "name_ru": "PlayStation Network (PSN)",
+      "file": "tachyon/playstation.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/playstation.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false
+    },
+    {
       "id": "tachyon:pubg",
       "name_ru": "PUBG, THE FINALS, DayZ, VRChat, PoE, Warframe и античиты (BattlEye / EasyAntiCheat)",
       "file": "tachyon/pubg.srs.lst",
@@ -196,17 +207,6 @@
       "file": "tachyon/roblox.srs.lst",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/roblox.srs",
-      "tag": "main",
-      "source": "Dushnilin/tachyon-lists",
-      "source_name": "Tachyon Lists",
-      "default_on": false
-    },
-    {
-      "id": "tachyon:game_backends",
-      "name_ru": "Сетевые движки игр и голосовой чат",
-      "file": "tachyon/game_backends.srs.lst",
-      "format": "srs",
-      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/game_backends.srs",
       "tag": "main",
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
@@ -412,7 +412,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 73966
+      "count": 73307
     },
     {
       "id": "tachyon:geoblock",
@@ -451,7 +451,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 73590,
+      "count": 72926,
       "same_as_ip": [
         "tachyon:ru_blocked"
       ]
@@ -467,7 +467,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1639302,
+      "count": 1643206,
       "same_as_ip": [
         "tachyon:ru_blocked_all"
       ]
@@ -499,7 +499,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 73512,
+      "count": 72849,
       "same_as_ip": [
         "tachyon:refilter"
       ]
@@ -515,7 +515,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 170
+      "count": 434
     },
     {
       "id": "tachyon:ukraine_inside",
@@ -528,7 +528,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 1169
+      "count": 1440
     },
     {
       "id": "tachyon:belarus_inside",
@@ -570,7 +570,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 859,
+      "count": 877,
       "same_as_ip": [
         "tachyon:ru_domains"
       ]
@@ -586,7 +586,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 178
+      "count": 442
     },
     {
       "id": "tachyon:push",
@@ -613,6 +613,19 @@
       "source_name": "Tachyon Lists",
       "default_on": false,
       "count": 100
+    },
+    {
+      "id": "tachyon:consoles_cdn",
+      "kind": "domains",
+      "name_ru": "CDN загрузок приставок (Direct)",
+      "file": "tachyon/domains/consoles_cdn.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/consoles_cdn.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false,
+      "count": 22
     },
     {
       "id": "tachyon:captive_ntp_stun",
@@ -898,7 +911,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 2
+      "count": 3
     },
     {
       "id": "tachyon:spotify",
@@ -1360,6 +1373,19 @@
       ]
     },
     {
+      "id": "tachyon:consoles_all",
+      "kind": "domains",
+      "name_ru": "Игровые приставки (все)",
+      "file": "tachyon/domains/consoles_all.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/consoles_all.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false,
+      "count": 239
+    },
+    {
       "id": "tachyon:xbox",
       "kind": "domains",
       "name_ru": "Xbox Live и Game Pass",
@@ -1370,10 +1396,10 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 68
+      "count": 78
     },
     {
-      "id": "tachyon:playstation",
+      "id": "svc_tachyon_playstation",
       "kind": "domains",
       "name_ru": "PlayStation Network (PSN)",
       "file": "tachyon/domains/playstation.srs.lst",
@@ -1383,12 +1409,15 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 16
+      "count": 33,
+      "same_as_ip": [
+        "tachyon:playstation"
+      ]
     },
     {
       "id": "tachyon:nintendo",
       "kind": "domains",
-      "name_ru": "Nintendo Switch",
+      "name_ru": "Nintendo Switch / Switch 2",
       "file": "tachyon/domains/nintendo.srs.lst",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/nintendo.srs",
@@ -1396,7 +1425,33 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 131
+      "count": 141
+    },
+    {
+      "id": "tachyon:handheld_consoles",
+      "kind": "domains",
+      "name_ru": "Портативные приставки и эмуляторы",
+      "file": "tachyon/domains/handheld_consoles.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/handheld_consoles.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false,
+      "count": 58
+    },
+    {
+      "id": "tachyon:console_homebrew",
+      "kind": "domains",
+      "name_ru": "Ретро-сети и Homebrew приставок",
+      "file": "tachyon/domains/console_homebrew.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/console_homebrew.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false,
+      "count": 35
     },
     {
       "id": "tachyon:gog",
@@ -1535,7 +1590,7 @@
       "count": 9
     },
     {
-      "id": "svc_tachyon_game_backends",
+      "id": "tachyon:game_backends",
       "kind": "domains",
       "name_ru": "Сетевые движки игр и голосовой чат",
       "file": "tachyon/domains/game_backends.srs.lst",
@@ -1545,10 +1600,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 22,
-      "same_as_ip": [
-        "tachyon:game_backends"
-      ]
+      "count": 22
     },
     {
       "id": "svc_tachyon_cs2_dota2",
@@ -1647,7 +1699,7 @@
     {
       "id": "tachyon:meta_quest",
       "kind": "domains",
-      "name_ru": "Meta Quest (Oculus) и Pico VR",
+      "name_ru": "VR-гарнитуры",
       "file": "tachyon/domains/meta_quest.srs.lst",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/meta_quest.srs",
@@ -1655,7 +1707,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 27
+      "count": 37
     },
     {
       "id": "tachyon:chess_boardgames",
@@ -1720,7 +1772,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 27
+      "count": 25
     },
     {
       "id": "tachyon:github",
@@ -1746,7 +1798,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 6
+      "count": 8
     },
     {
       "id": "tachyon:hodca",
@@ -1837,7 +1889,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 833
+      "count": 826
     },
     {
       "id": "tachyon:captcha_auth",
@@ -1931,6 +1983,19 @@
       "count": 47
     },
     {
+      "id": "tachyon:tv_boxes",
+      "kind": "domains",
+      "name_ru": "ТВ-приставки и медиаплееры",
+      "file": "tachyon/domains/tv_boxes.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/Dushnilin/tachyon-lists/main/release/sing-box/tv_boxes.srs",
+      "tag": "main",
+      "source": "Dushnilin/tachyon-lists",
+      "source_name": "Tachyon Lists",
+      "default_on": false,
+      "count": 43
+    },
+    {
       "id": "tachyon:smart_cars",
       "kind": "domains",
       "name_ru": "Умные автомобили и электрокары",
@@ -1996,7 +2061,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 3549,
+      "count": 3550,
       "same_as_ip": [
         "tachyon:doh_dot_dns"
       ]
@@ -2158,7 +2223,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 245998
+      "count": 246299
     },
     {
       "id": "tachyon:android_ads_block",
@@ -2171,7 +2236,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 43724
+      "count": 43722
     },
     {
       "id": "tachyon:win_spy",
@@ -2184,7 +2249,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 328
+      "count": 327
     },
     {
       "id": "tachyon:xiaomi_smarttv_ads",
@@ -2210,7 +2275,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 74947
+      "count": 74306
     },
     {
       "id": "tachyon:phishing_malware_block",
@@ -2223,7 +2288,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 134750
+      "count": 164665
     },
     {
       "id": "tachyon:telemetry_mobile_block",
@@ -2265,7 +2330,7 @@
       "source": "Dushnilin/tachyon-lists",
       "source_name": "Tachyon Lists",
       "default_on": false,
-      "count": 859
+      "count": 877
     }
   ]
 }
